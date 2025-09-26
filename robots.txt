@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://match1.day/sitemap_index.xml

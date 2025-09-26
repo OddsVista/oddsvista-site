@@ -1,0 +1,53 @@
+
+/*
+  X-Frame-Options: SAMEORIGIN
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: interest-cohort=()
+  Cache-Control: public, max-age=600
+/assets/*
+  Cache-Control: public, max-age=604800, immutable
+/js/config.js
+  Cache-Control: no-cache, must-revalidate
+
+/en/*
+  Content-Language: en
+
+/de/*
+  Content-Language: de
+
+/fr/*
+  Content-Language: fr
+
+/es/*
+  Content-Language: es
+
+/it/*
+  Content-Language: it
+
+/pt/*
+  Content-Language: pt
+
+/nl/*
+  Content-Language: nl
+
+/pl/*
+  Content-Language: pl
+
+/tr/*
+  Content-Language: tr
+
+/ar/*
+  Content-Language: ar
+
+/zh/*
+  Content-Language: zh
+
+/ja/*
+  Content-Language: ja
+
+/ko/*
+  Content-Language: ko
+
+/sv/*
+  Content-Language: sv
