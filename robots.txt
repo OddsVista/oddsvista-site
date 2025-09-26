@@ -1,3 +1,8 @@
 User-agent: *
 Allow: /
+Disallow: /temp/
+Disallow: /drafts/
+Disallow: /private/
+
 Sitemap: https://match1.day/sitemap_index.xml
+Host: match1.day
