@@ -273,3 +273,121 @@ body{
   transform: translateY(-2px) scale(1.03);
   box-shadow: 0 10px 28px rgba(34,197,94,.5), 0 0 30px rgba(34,197,94,.4);
 }
+/* ===== Mobile polish (append at end) ===== */
+
+/* 1) Базовые правки для маленьких экранов */
+@media (max-width: 768px) {
+  .container { padding: 0 14px; }
+
+  /* Header */
+  .site-header { backdrop-filter: blur(8px); }
+  .nav-flex { min-height: 52px; gap: 8px; }
+  .logo-mark { width: 34px; height: 34px; border-radius: 10px; }
+  .logo { gap: 8px; font-size: 0.98rem; }
+  .nav a { margin-right: 8px; font-size: 0.95rem; }
+  .langsel { padding: 3px 6px; font-size: 13px; }
+
+  /* Hero layout */
+  .hero,
+  .hero-grid { grid-template-columns: 1fr !important; gap: 14px; }
+  .hero-card,
+  .card { padding: 18px !important; border-radius: 16px; }
+  .hero-center { padding: 18px 8px 6px; }
+
+  /* Типографика */
+  .hero-title {
+    font-size: clamp(22px, 5.5vw, 32px);
+    line-height: 1.08;
+    text-align: center;
+    margin: 6px 0 8px;
+  }
+  .hero-sub { 
+    font-size: 0.98rem;
+    line-height: 1.45;
+    margin: 0 auto 10px;
+    max-width: 60ch;
+    text-align: center;
+  }
+
+  /* Большое число / KPI */
+  .hero-num,
+  .kpi-number {
+    font-size: clamp(42px, 12vw, 64px) !important;
+    line-height: 1;
+    text-align: center;
+    letter-spacing: 0.3px;
+    filter: drop-shadow(0 10px 26px rgba(155,92,255,.22));
+  }
+  .kpi-shadow { inset: -12px -18px; filter: blur(10px); }
+
+  /* CTA */
+  .hero-cta { justify-content: center; gap: 10px; }
+  .btn-tele { 
+    width: 100%; 
+    max-width: 520px; 
+    justify-content: center; 
+    padding: 13px 16px; 
+    font-size: 1.05rem; 
+    border-radius: 14px;
+  }
+  /* Спрятать вторую/дублирующую кнопку на мобиле */
+  .btn-tele.btn-secondary,
+  .btn-tele--secondary { display: none !important; }
+
+  /* Бегущая строка/тикер */
+  .hero-ticker { 
+    font-size: 0.92rem; 
+    padding: 6px 8px; 
+    text-overflow: ellipsis; 
+  }
+  .hero-ticker .stream { animation-duration: 24s; } /* чуть медленнее */
+
+  /* Флаги — компактная сетка, центрируем */
+  .marquee { margin-top: 10px; }
+  .marquee .track { 
+    animation-duration: 26s; 
+    opacity: .85; 
+  }
+
+  .flags { 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 6px 8px; 
+    margin-top: 6px; 
+  }
+  .flags img { width: 18px; height: auto; }
+
+  /* Боковая «highlight» карточка становится обычным блоком ниже */
+  .highlight,
+  .highlight.glass-card {
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 14px;
+    border-radius: 14px;
+  }
+  .highlight .meta { margin: 6px 0 8px; }
+  .highlight .trend { right: 12px; bottom: 10px; font-size: 0.95rem; }
+
+  /* Сетка ниже hero */
+  .grid { grid-template-columns: 1fr !important; gap: 12px; }
+}
+
+/* 2) Экстрамаленькие экраны: приглушаем фоновые эффекты, чтобы не «съедали» контент */
+@media (max-width: 420px) {
+  body::before, .bg-glow, .grid-mesh, .noise { opacity: 0.04 !important; }
+  .btn-tele { font-size: 1rem; padding: 12px 14px; }
+  .hero-title { font-size: clamp(20px, 6vw, 28px); }
+  .hero-sub { font-size: 0.95rem; }
+}
+
+/* 3) Утилита, если где-то нужна явная скрывалка на мобилке */
+@media (max-width: 768px) {
+  .hide-mobile { display: none !important; }
+}
+
+/* 4) Motion-friendly: если пользователь просит меньше анимаций */
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}
