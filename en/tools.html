@@ -1,34 +1,444 @@
-<!doctype html><html lang="en" dir="ltr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Tools — calculators — OddsVista</title><meta name="description" content="Odds calculators for education."><link rel="icon" href="/assets/favicon.svg" type="image/svg+xml"><link rel="canonical" href="https://match1.day/en/tools.html"><meta property="og:type" content="website"><meta property="og:title" content="Tools — calculators"><meta property="og:description" content="Odds calculators for education."><meta property="og:image" content="https://match1.day/assets/og-en.png"><meta property="og:url" content="https://match1.day/en/tools.html"><meta name="twitter:card" content="summary_large_image"><link rel="alternate" href="https://match1.day/en/tools.html" hreflang="en">
-<link rel="alternate" href="https://match1.day/de/tools.html" hreflang="de">
-<link rel="alternate" href="https://match1.day/fr/tools.html" hreflang="fr">
-<link rel="alternate" href="https://match1.day/es/tools.html" hreflang="es">
-<link rel="alternate" href="https://match1.day/it/tools.html" hreflang="it">
-<link rel="alternate" href="https://match1.day/pt/tools.html" hreflang="pt">
-<link rel="alternate" href="https://match1.day/nl/tools.html" hreflang="nl">
-<link rel="alternate" href="https://match1.day/pl/tools.html" hreflang="pl">
-<link rel="alternate" href="https://match1.day/tr/tools.html" hreflang="tr">
-<link rel="alternate" href="https://match1.day/ar/tools.html" hreflang="ar">
-<link rel="alternate" href="https://match1.day/zh/tools.html" hreflang="zh">
-<link rel="alternate" href="https://match1.day/ja/tools.html" hreflang="ja">
-<link rel="alternate" href="https://match1.day/ko/tools.html" hreflang="ko">
-<link rel="alternate" href="https://match1.day/sv/tools.html" hreflang="sv">
-<link rel="alternate" href="https://match1.day/en/tools.html" hreflang="x-default"><link rel="stylesheet" href="/css/style.css"></head><body>
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <title>Tools — Odds & Bankroll Calculators | OddsVista</title>
+  <meta name="description" content="Free educational calculators: implied probability, odds conversion, EV, Kelly, CLV helper, parlay, and margin. Learn and practice responsible, data-driven betting concepts.">
+  <link rel="canonical" href="https://match1.day/en/tools.html">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Tools — Odds & Bankroll Calculators">
+  <meta property="og:description" content="Implied probability, odds conversion (decimal/US/fractional), EV, Kelly, parlay and margin calculators. Educational only; no guarantees.">
+  <meta property="og:image" content="https://match1.day/assets/og-tools.png">
+  <meta property="og:url" content="https://match1.day/en/tools.html">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="OddsVista Tools — Educational Calculators">
+  <meta name="twitter:description" content="Convert odds, compute EV and Kelly, estimate margin and parlay returns. Practice disciplined, data-driven thinking.">
+  <meta name="twitter:image" content="https://match1.day/assets/og-tools.png">
+
+  <!-- Hreflang -->
+  <link rel="alternate" href="https://match1.day/en/tools.html" hreflang="en">
+  <link rel="alternate" href="https://match1.day/de/tools.html" hreflang="de">
+  <link rel="alternate" href="https://match1.day/fr/tools.html" hreflang="fr">
+  <link rel="alternate" href="https://match1.day/es/tools.html" hreflang="es">
+  <link rel="alternate" href="https://match1.day/it/tools.html" hreflang="it">
+  <link rel="alternate" href="https://match1.day/pt/tools.html" hreflang="pt">
+  <link rel="alternate" href="https://match1.day/nl/tools.html" hreflang="nl">
+  <link rel="alternate" href="https://match1.day/pl/tools.html" hreflang="pl">
+  <link rel="alternate" href="https://match1.day/tr/tools.html" hreflang="tr">
+  <link rel="alternate" href="https://match1.day/ar/tools.html" hreflang="ar">
+  <link rel="alternate" href="https://match1.day/zh/tools.html" hreflang="zh">
+  <link rel="alternate" href="https://match1.day/ja/tools.html" hreflang="ja">
+  <link rel="alternate" href="https://match1.day/ko/tools.html" hreflang="ko">
+  <link rel="alternate" href="https://match1.day/sv/tools.html" hreflang="sv">
+  <link rel="alternate" href="https://match1.day/en/tools.html" hreflang="x-default">
+
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/css/style.css">
+
+  <!-- JSON-LD: Tools catalog (ItemList of SoftwareApplication) -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"ItemList",
+    "name":"OddsVista Calculators",
+    "itemListOrder":"http://schema.org/ItemListOrderAscending",
+    "itemListElement":[
+      {
+        "@type":"ListItem","position":1,
+        "item":{
+          "@type":"SoftwareApplication",
+          "name":"Implied Probability Calculator",
+          "applicationCategory":"BusinessApplication",
+          "operatingSystem":"Web",
+          "description":"Convert decimal, American, and fractional odds to implied probability."
+        }
+      },
+      {
+        "@type":"ListItem","position":2,
+        "item":{
+          "@type":"SoftwareApplication",
+          "name":"Odds Converter",
+          "applicationCategory":"BusinessApplication",
+          "operatingSystem":"Web",
+          "description":"Convert between decimal, American, and fractional odds."
+        }
+      },
+      {
+        "@type":"ListItem","position":3,
+        "item":{
+          "@type":"SoftwareApplication",
+          "name":"Expected Value (EV) Calculator",
+          "applicationCategory":"BusinessApplication",
+          "operatingSystem":"Web",
+          "description":"Compute expected value from win probability and price."
+        }
+      },
+      {
+        "@type":"ListItem","position":4,
+        "item":{
+          "@type":"SoftwareApplication",
+          "name":"Kelly Criterion (Fractional) Calculator",
+          "applicationCategory":"BusinessApplication",
+          "operatingSystem":"Web",
+          "description":"Size stakes using Kelly; supports fractional Kelly."
+        }
+      },
+      {
+        "@type":"ListItem","position":5,
+        "item":{
+          "@type":"SoftwareApplication",
+          "name":"Parlay / Accumulator Calculator",
+          "applicationCategory":"BusinessApplication",
+          "operatingSystem":"Web",
+          "description":"Combine multiple legs; compute total decimal odds and potential return."
+        }
+      },
+      {
+        "@type":"ListItem","position":6,
+        "item":{
+          "@type":"SoftwareApplication",
+          "name":"Bookmaker Margin (Overround) Estimator",
+          "applicationCategory":"BusinessApplication",
+          "operatingSystem":"Web",
+          "description":"Estimate market margin from 1X2 prices."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    .grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(280px,1fr)); gap:16px; }
+    .tool { padding:16px; border:1px solid rgba(0,0,0,.08); border-radius:14px; background:rgba(255,255,255,.6); backdrop-filter:saturate(1.2) blur(2px); }
+    .tool h3 { margin:0 0 8px 0; }
+    .row { display:flex; gap:8px; align-items:center; margin:6px 0; flex-wrap:wrap; }
+    .row label { font-size:12px; color:var(--muted,#6b7280); min-width:92px; }
+    .row input { flex:1 1 120px; padding:8px 10px; border:1px solid rgba(0,0,0,.1); border-radius:10px; }
+    .row input[readonly] { background:#fafafa; }
+    .muted.small { color:var(--muted,#6b7280); font-size:.9rem; }
+    .note { margin-top:10px; font-size:.85rem; color:var(--muted,#6b7280); }
+    .pill { display:inline-block; padding:2px 8px; border:1px solid rgba(0,0,0,.08); border-radius:999px; font-size:12px; }
+    .stack { display:flex; flex-direction:column; gap:8px; }
+    .sep { height:1px; background:rgba(0,0,0,.06); margin:12px 0; }
+  </style>
+</head>
+<body>
+
 <header class="site-header" role="banner">
   <div class="container nav-flex">
     <a class="logo" href="/en/"><span class="logo-mark">OV</span><span style="margin-left:8px">OddsVista</span></a>
     <nav class="nav" role="navigation" aria-label="Primary">
-      <a href="/en/">Home</a><a href="/en/blog/">Blog</a><a href="/en/glossary.html">Glossary</a><a href="/en/faq.html">FAQ</a><a href="/en/about.html">About</a><a href="/en/contact.html">Contact</a><a href="/en/tools.html">Tools</a><a href="/en/leagues/">Leagues</a><a href="/en/countries/">Countries</a><a href="/en/teams/">Leagues / Teams</a>
+      <a href="/en/">Home</a>
+      <a href="/en/blog/">Blog</a>
+      <a href="/en/glossary.html">Glossary</a>
+      <a href="/en/faq.html">FAQ</a>
+      <a href="/en/about/">About</a>
+      <a href="/en/contact/">Contact</a>
+      <a href="/en/tools.html" aria-current="page">Tools</a>
+      <a href="/en/leagues/">Leagues</a>
+      <a href="/en/countries/">Countries</a>
+      <a href="/en/teams/">Teams</a>
       <a class="btn-tele" href="https://t.me/+IGmU1Hrp330zMDdi">Join Telegram</a>
-      <select id="lang" class="langsel" aria-label="Language"><option value="en">EN</option><option value="de">DE</option><option value="fr">FR</option><option value="es">ES</option><option value="it">IT</option><option value="pt">PT</option><option value="nl">NL</option><option value="pl">PL</option><option value="tr">TR</option><option value="ar">AR</option><option value="zh">ZH</option><option value="ja">JA</option><option value="ko">KO</option><option value="sv">SV</option></select>
+      <select id="lang" class="langsel" aria-label="Language">
+        <option value="en" selected>EN</option><option value="de">DE</option><option value="fr">FR</option><option value="es">ES</option>
+        <option value="it">IT</option><option value="pt">PT</option><option value="nl">NL</option><option value="pl">PL</option>
+        <option value="tr">TR</option><option value="ar">AR</option><option value="zh">ZH</option><option value="ja">JA</option>
+        <option value="ko">KO</option><option value="sv">SV</option>
+      </select>
     </nav>
   </div>
-  <div class="container tiny muted" style="padding:6px 0" role="navigation" aria-label="Language">
-    <span>Languages:</span> <a href="/en/" data-lang-link="en">EN</a> <a href="/de/" data-lang-link="de">DE</a> <a href="/fr/" data-lang-link="fr">FR</a> <a href="/es/" data-lang-link="es">ES</a> <a href="/it/" data-lang-link="it">IT</a> <a href="/pt/" data-lang-link="pt">PT</a> <a href="/nl/" data-lang-link="nl">NL</a> <a href="/pl/" data-lang-link="pl">PL</a> <a href="/tr/" data-lang-link="tr">TR</a> <a href="/ar/" data-lang-link="ar">AR</a> <a href="/zh/" data-lang-link="zh">ZH</a> <a href="/ja/" data-lang-link="ja">JA</a> <a href="/ko/" data-lang-link="ko">KO</a> <a href="/sv/" data-lang-link="sv">SV</a>
+</header>
+
+<main class="container">
+  <section class="card">
+    <h1>Tools</h1>
+    <p class="muted small">Free, educational calculators. Outcomes are uncertain; no guarantees. Always follow local laws.</p>
+
+    <div class="grid">
+
+      <!-- Implied probability + Odds converter -->
+      <div class="tool" id="t-implied">
+        <h3>Implied Probability & Odds Converter <span class="pill">Basics</span></h3>
+        <div class="stack">
+          <div class="row">
+            <label for="dec">Decimal</label>
+            <input id="dec" type="number" step="0.01" min="1.01" placeholder="2.50" inputmode="decimal">
+          </div>
+          <div class="row">
+            <label for="us">American</label>
+            <input id="us" type="number" step="1" placeholder="+150 or -120" inputmode="numeric">
+          </div>
+          <div class="row">
+            <label for="frac">Fractional</label>
+            <input id="frac" type="text" placeholder="3/2 or 5/4" inputmode="text">
+          </div>
+          <div class="sep"></div>
+          <div class="row">
+            <label for="impl">Implied %</label>
+            <input id="impl" type="text" readonly placeholder="40.0%">
+          </div>
+        </div>
+        <p class="note">Tip: Decimal → implied% = 100 / decimal. American +150 ⇒ 2.50; −120 ⇒ 1.833…</p>
+      </div>
+
+      <!-- EV -->
+      <div class="tool" id="t-ev">
+        <h3>Expected Value (EV) <span class="pill">Long-run</span></h3>
+        <div class="stack">
+          <div class="row">
+            <label for="ev_prob">Win %</label>
+            <input id="ev_prob" type="number" step="0.01" min="0" max="100" placeholder="40">
+          </div>
+          <div class="row">
+            <label for="ev_dec">Decimal</label>
+            <input id="ev_dec" type="number" step="0.01" min="1.01" placeholder="2.50">
+          </div>
+          <div class="row">
+            <label for="ev_out">EV / 1u</label>
+            <input id="ev_out" type="text" readonly placeholder="+0.00">
+          </div>
+        </div>
+        <p class="note">EV = p × (odds − 1) − (1 − p). Positive EV doesn’t mean guaranteed wins.</p>
+      </div>
+
+      <!-- Kelly -->
+      <div class="tool" id="t-kelly">
+        <h3>Kelly Criterion <span class="pill">Risk</span></h3>
+        <div class="stack">
+          <div class="row">
+            <label for="kel_p">Win %</label>
+            <input id="kel_p" type="number" step="0.01" min="0" max="100" placeholder="40">
+          </div>
+          <div class="row">
+            <label for="kel_dec">Decimal</label>
+            <input id="kel_dec" type="number" step="0.01" min="1.01" placeholder="2.50">
+          </div>
+          <div class="row">
+            <label for="kel_frac">Fraction</label>
+            <input id="kel_frac" type="number" step="0.01" min="0" max="1" placeholder="0.25">
+          </div>
+          <div class="row">
+            <label for="kel_out">Stake %</label>
+            <input id="kel_out" type="text" readonly placeholder="2.0%">
+          </div>
+        </div>
+        <p class="note">Kelly full = (bp − q)/b where b = (odds−1), p = win prob, q = 1−p. Many use 0.25–0.50 (fractional Kelly).</p>
+      </div>
+
+      <!-- Parlay -->
+      <div class="tool" id="t-parlay">
+        <h3>Parlay / Accumulator <span class="pill">Multi-leg</span></h3>
+        <div class="stack" id="parlayBox">
+          <div class="row"><label>Leg 1</label><input class="parlay" type="number" step="0.01" min="1.01" placeholder="1.90"></div>
+          <div class="row"><label>Leg 2</label><input class="parlay" type="number" step="0.01" min="1.01" placeholder="1.80"></div>
+          <div class="row"><label>Leg 3</label><input class="parlay" type="number" step="0.01" min="1.01" placeholder="2.10"></div>
+          <div class="sep"></div>
+          <div class="row">
+            <label for="parlay_total">Total Dec</label>
+            <input id="parlay_total" type="text" readonly placeholder="—">
+          </div>
+          <div class="row">
+            <label for="parlay_impl">Implied %</label>
+            <input id="parlay_impl" type="text" readonly placeholder="—">
+          </div>
+        </div>
+        <p class="note">Total decimal = product of legs. Implied% = 100 / total.</p>
+      </div>
+
+      <!-- Margin / Overround -->
+      <div class="tool" id="t-margin">
+        <h3>Bookmaker Margin (Overround) <span class="pill">1X2</span></h3>
+        <div class="stack">
+          <div class="row"><label for="m1">Home (1)</label><input id="m1" type="number" step="0.01" min="1.01" placeholder="2.10"></div>
+          <div class="row"><label for="mx">Draw (X)</label><input id="mx" type="number" step="0.01" min="1.01" placeholder="3.40"></div>
+          <div class="row"><label for="m2">Away (2)</label><input id="m2" type="number" step="0.01" min="1.01" placeholder="3.30"></div>
+          <div class="sep"></div>
+          <div class="row"><label for="m_out">Margin %</label><input id="m_out" type="text" readonly placeholder="—"></div>
+        </div>
+        <p class="note">Margin = (Σ(100/odds)) − 100. Lower margin is generally better for bettors.</p>
+      </div>
+
+    </div>
+
+    <p class="muted small" style="margin-top:16px;">Educational use only; nothing here is financial advice. No guaranteed results.</p>
+  </section>
+</main>
+
+<footer>
+  <div class="container small muted footer-langs">
+    <a href="/en/" data-lang-link="en">EN</a> <a href="/de/" data-lang-link="de">DE</a> <a href="/fr/" data-lang-link="fr">FR</a>
+    <a href="/es/" data-lang-link="es">ES</a> <a href="/it/" data-lang-link="it">IT</a> <a href="/pt/" data-lang-link="pt">PT</a>
+    <a href="/nl/" data-lang-link="nl">NL</a> <a href="/pl/" data-lang-link="pl">PL</a> <a href="/tr/" data-lang-link="tr">TR</a>
+    <a href="/ar/" data-lang-link="ar">AR</a> <a href="/zh/" data-lang-link="zh">ZH</a> <a href="/ja/" data-lang-link="ja">JA</a>
+    <a href="/ko/" data-lang-link="ko">KO</a> <a href="/sv/" data-lang-link="sv">SV</a>
+    · <a class="btn-tele" href="https://t.me/+IGmU1Hrp330zMDdi">Join Telegram</a>
   </div>
-</header><main class="container">
-<section class='card'><h1>Tools</h1>
-<h3>Implied probability</h3><label>Decimal <input id='dec' type='number' step='0.01' placeholder='2.50'></label> <input id='dec_p' readonly placeholder='%'> 
-<h3>Probability → Decimal</h3><label>% <input id='prob' type='number' step='0.01' placeholder='40'></label> <input id='prob_d' readonly placeholder='2.50'>
-<h3>Kelly calculator</h3><input id='kel_p' placeholder='% win prob'> <input id='kel_o' placeholder='decimal odds'> <input id='kel_f' placeholder='fraction e.g., 0.25'> <input id='kel_out' readonly placeholder='stake %'>
-<h3>Expected Value</h3><input id='ev_p' placeholder='% win prob'> <input id='ev_o' placeholder='decimal odds'> <input id='ev_out' readonly placeholder='EV'>
-<p class='small muted'>Educational use only.</p></section></main><footer><div class="container small muted footer-langs"><a href="/en/" data-lang-link="en">EN</a> <a href="/de/" data-lang-link="de">DE</a> <a href="/fr/" data-lang-link="fr">FR</a> <a href="/es/" data-lang-link="es">ES</a> <a href="/it/" data-lang-link="it">IT</a> <a href="/pt/" data-lang-link="pt">PT</a> <a href="/nl/" data-lang-link="nl">NL</a> <a href="/pl/" data-lang-link="pl">PL</a> <a href="/tr/" data-lang-link="tr">TR</a> <a href="/ar/" data-lang-link="ar">AR</a> <a href="/zh/" data-lang-link="zh">ZH</a> <a href="/ja/" data-lang-link="ja">JA</a> <a href="/ko/" data-lang-link="ko">KO</a> <a href="/sv/" data-lang-link="sv">SV</a> · <a class="btn-tele" href="https://t.me/+IGmU1Hrp330zMDdi">Join Telegram</a></div></footer><script src="/js/config.js"></script><script src="/js/calc.js"></script></body></html>
+</footer>
+
+<script>
+  // Persist language + route to same page in selected locale
+  (function () {
+    const sel = document.getElementById('lang');
+    if (!sel) return;
+    try { const saved = localStorage.getItem('lang'); if (saved && sel.value !== saved) sel.value = saved; } catch(e){}
+    sel.addEventListener('change', function () {
+      const lang = (this.value || 'en').toLowerCase();
+      try { localStorage.setItem('lang', lang); } catch(e){}
+      location.href = '/' + lang + '/tools.html';
+    });
+  })();
+
+  // Helpers
+  const clamp = (v, lo, hi) => Math.min(Math.max(v, lo), hi);
+  const fmtPct = v => isFinite(v) ? (v*100).toFixed(2) + '%' : '—';
+  const fmt = (v, d=2) => isFinite(v) ? Number(v).toFixed(d) : '—';
+
+  // ---- Implied & Converter ----
+  (function(){
+    const dec = document.getElementById('dec');
+    const us  = document.getElementById('us');
+    const frac= document.getElementById('frac');
+    const impl= document.getElementById('impl');
+    if(!dec || !us || !frac || !impl) return;
+
+    function decToUS(d){
+      if (!isFinite(d) || d <= 1) return NaN;
+      return d >= 2 ? Math.round((d-1)*100) : Math.round(-100/(d-1));
+    }
+    function usToDec(a){
+      if (!isFinite(a)) return NaN;
+      return a >= 0 ? 1 + a/100 : 1 + 100/Math.abs(a);
+    }
+    function fracToDec(s){
+      const m = (s || '').trim().split('/');
+      if (m.length !== 2) return NaN;
+      const n = parseFloat(m[0]), d = parseFloat(m[1]);
+      if (!isFinite(n) || !isFinite(d) || d === 0) return NaN;
+      return 1 + (n/d);
+    }
+    function decToFrac(d){
+      // simple rational approx
+      const profit = d - 1;
+      if (!isFinite(profit) || profit <= 0) return '';
+      const denom = 1000; // precision
+      const num = Math.round(profit * denom);
+      // reduce fraction
+      function gcd(a,b){ return b ? gcd(b, a%b) : a; }
+      const g = gcd(num, denom);
+      return (num/g) + '/' + (denom/g);
+    }
+    function updateFromDec(){
+      const d = parseFloat(dec.value);
+      if (!isFinite(d) || d <= 1) { impl.value='—'; us.value=''; frac.value=''; return; }
+      impl.value = (100/d).toFixed(2) + '%';
+      us.value = (decToUS(d) >= 0 ? '+' : '') + decToUS(d);
+      frac.value = decToFrac(d);
+    }
+    function updateFromUS(){
+      const a = parseFloat(us.value);
+      const d = usToDec(a);
+      if (!isFinite(d)) { impl.value='—'; dec.value=''; frac.value=''; return; }
+      dec.value = fmt(d);
+      impl.value = (100/d).toFixed(2) + '%';
+      frac.value = decToFrac(d);
+    }
+    function updateFromFrac(){
+      const d = fracToDec(frac.value);
+      if (!isFinite(d)) { impl.value='—'; dec.value=''; us.value=''; return; }
+      dec.value = fmt(d);
+      impl.value = (100/d).toFixed(2) + '%';
+      const a = decToUS(d);
+      us.value = (a >= 0 ? '+' : '') + a;
+    }
+    dec.addEventListener('input', updateFromDec);
+    us.addEventListener('input', updateFromUS);
+    frac.addEventListener('input', updateFromFrac);
+  })();
+
+  // ---- EV ----
+  (function(){
+    const p = document.getElementById('ev_prob');
+    const d = document.getElementById('ev_dec');
+    const o = document.getElementById('ev_out');
+    if(!p || !d || !o) return;
+    function calc(){
+      const prob = clamp(parseFloat(p.value)/100, 0, 1);
+      const dec = parseFloat(d.value);
+      if (!isFinite(prob) || !isFinite(dec) || dec <= 1) { o.value = '—'; return; }
+      const b = dec - 1;
+      const ev = prob * b - (1 - prob);
+      o.value = (ev>=0?'+':'') + fmt(ev, 4);
+    }
+    p.addEventListener('input', calc);
+    d.addEventListener('input', calc);
+  })();
+
+  // ---- Kelly ----
+  (function(){
+    const p = document.getElementById('kel_p');
+    const d = document.getElementById('kel_dec');
+    const f = document.getElementById('kel_frac');
+    const o = document.getElementById('kel_out');
+    if(!p || !d || !f || !o) return;
+    function calc(){
+      const prob = clamp(parseFloat(p.value)/100, 0, 1);
+      const dec = parseFloat(d.value);
+      const frac = clamp(parseFloat(f.value), 0, 1);
+      if (!isFinite(prob) || !isFinite(dec) || dec <= 1 || !isFinite(frac)) { o.value = '—'; return; }
+      const b = dec - 1;
+      const full = (b*prob - (1 - prob)) / b; // Kelly
+      const stake = Math.max(0, full * frac);
+      o.value = (stake*100).toFixed(2) + '%';
+    }
+    p.addEventListener('input', calc);
+    d.addEventListener('input', calc);
+    f.addEventListener('input', calc);
+  })();
+
+  // ---- Parlay ----
+  (function(){
+    const inputs = document.querySelectorAll('#parlayBox .parlay');
+    const total = document.getElementById('parlay_total');
+    const impl  = document.getElementById('parlay_impl');
+    if(!inputs.length || !total || !impl) return;
+    function calc(){
+      let prod = 1;
+      let valid = false;
+      inputs.forEach(i => {
+        const v = parseFloat(i.value);
+        if (isFinite(v) && v > 1) { prod *= v; valid = true; }
+      });
+      if (!valid) { total.value='—'; impl.value='—'; return; }
+      total.value = fmt(prod, 3);
+      impl.value = (100/prod).toFixed(2) + '%';
+    }
+    inputs.forEach(i => i.addEventListener('input', calc));
+  })();
+
+  // ---- Margin ----
+  (function(){
+    const a = document.getElementById('m1');
+    const b = document.getElementById('mx');
+    const c = document.getElementById('m2');
+    const o = document.getElementById('m_out');
+    if(!a || !b || !c || !o) return;
+    function calc(){
+      const d1 = parseFloat(a.value), dx = parseFloat(b.value), d2 = parseFloat(c.value);
+      if (![d1,dx,d2].every(v => isFinite(v) && v > 1)) { o.value = '—'; return; }
+      const margin = (100/d1 + 100/dx + 100/d2) - 100;
+      o.value = margin.toFixed(2) + '%';
+    }
+    [a,b,c].forEach(i => i.addEventListener('input', calc));
+  })();
+</script>
+
+<script src="/js/config.js"></script>
+<script src="/js/calc.js"></script>
+</body>
+</html>
