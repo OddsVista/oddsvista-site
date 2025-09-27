@@ -1,1 +1,508 @@
-<?xml version='1.0' encoding='UTF-8'?><rss xmlns:yandex='http://news.yandex.ru' xmlns:media='http://search.yahoo.com/mrss/' xmlns:turbo='http://turbo.yandex.ru' version='2.0'><channel><title>OddsVista — NL</title><link>https://match1.day/nl/</link><description>Turbo feed</description><item turbo='true'><link>https://match1.day/nl/blog/bankroll-management-101.html</link><title>Bankroll Management 101</title><turbo:content><![CDATA[<header><h1>Bankroll Management 101</h1></header><p>This educational resource focuses on analysis, probability, variance, and bankroll discipline. There are no guarantees; outcomes are uncertain. Use information responsibly and follow local laws. This educational resource focuses on analysis, probability, variance, and bankroll discipline. There are no guarantees; outcomes are uncertain. Use information responsibly and follow local laws.</p>]]></turbo:content></item><item turbo='true'><link>https://match1.day/nl/blog/how-to-read-odds.html</link><title>How To Read Odds</title><turbo:content><![CDATA[<header><h1>How To Read Odds</h1></header><p>This educational resource focuses on analysis, probability, variance, and bankroll discipline. There are no guarantees; outcomes are uncertain. Use information responsibly and follow local laws. This educational resource focuses on analysis, probability, variance, and bankroll discipline. There are no guarantees; outcomes are uncertain. Use information responsibly and follow local laws.</p>]]></turbo:content></item><item turbo='true'><link>https://match1.day/nl/blog/value-betting-basics.html</link><title>Value Betting Basics</title><turbo:content><![CDATA[<header><h1>Value Betting Basics</h1></header><p>This educational resource focuses on analysis, probability, variance, and bankroll discipline. There are no guarantees; outcomes are uncertain. Use information responsibly and follow local laws. This educational resource focuses on analysis, probability, variance, and bankroll discipline. There are no guarantees; outcomes are uncertain. Use information responsibly and follow local laws.</p>]]></turbo:content></item><item turbo='true'><link>https://match1.day/nl/blog/xg-and-form.html</link><title>Xg And Form</title><turbo:content><![CDATA[<header><h1>Xg And Form</h1></header><p>This educational resource focuses on analysis, probability, variance, and bankroll discipline. There are no guarantees; outcomes are uncertain. Use information responsibly and follow local laws. This educational resource focuses on analysis, probability, variance, and bankroll discipline. There are no guarantees; outcomes are uncertain. Use information responsibly and follow local laws.</p>]]></turbo:content></item><item turbo='true'><link>https://match1.day/nl/blog/market-movements-101.html</link><title>Market Movements 101</title><turbo:content><![CDATA[<header><h1>Market Movements 101</h1></header><p>This educational resource focuses on analysis, probability, variance, and bankroll discipline. There are no guarantees; outcomes are uncertain. Use information responsibly and follow local laws. This educational resource focuses on analysis, probability, variance, and bankroll discipline. There are no guarantees; outcomes are uncertain. Use information responsibly and follow local laws.</p>]]></turbo:content></item><item turbo='true'><link>https://match1.day/nl/blog/live-betting-principles.html</link><title>Live Betting Principles</title><turbo:content><![CDATA[<header><h1>Live Betting Principles</h1></header><p>This educational resource focuses on analysis, probability, variance, and bankroll discipline. There are no guarantees; outcomes are uncertain. Use information responsibly and follow local laws. This educational resource focuses on analysis, probability, variance, and bankroll discipline. There are no guarantees; outcomes are uncertain. Use information responsibly and follow local laws.</p>]]></turbo:content></item><item turbo='true'><link>https://match1.day/nl/blog/responsible-betting.html</link><title>Responsible Betting</title><turbo:content><![CDATA[<header><h1>Responsible Betting</h1></header><p>This educational resource focuses on analysis, probability, variance, and bankroll discipline. There are no guarantees; outcomes are uncertain. Use information responsibly and follow local laws. This educational resource focuses on analysis, probability, variance, and bankroll discipline. There are no guarantees; outcomes are uncertain. Use information responsibly and follow local laws.</p>]]></turbo:content></item><item turbo='true'><link>https://match1.day/nl/blog/line-shopping-guide.html</link><title>Line Shopping Guide</title><turbo:content><![CDATA[<header><h1>Line Shopping Guide</h1></header><p>This educational resource focuses on analysis, probability, variance, and bankroll discipline. There are no guarantees; outcomes are uncertain. Use information responsibly and follow local laws. This educational resource focuses on analysis, probability, variance, and bankroll discipline. There are no guarantees; outcomes are uncertain. Use information responsibly and follow local laws.</p>]]></turbo:content></item><item turbo='true'><link>https://match1.day/nl/blog/kelly-criterion-explained.html</link><title>Kelly Criterion Explained</title><turbo:content><![CDATA[<header><h1>Kelly Criterion Explained</h1></header><p>This educational resource focuses on analysis, probability, variance, and bankroll discipline. There are no guarantees; outcomes are uncertain. Use information responsibly and follow local laws. This educational resource focuses on analysis, probability, variance, and bankroll discipline. There are no guarantees; outcomes are uncertain. Use information responsibly and follow local laws.</p>]]></turbo:content></item><item turbo='true'><link>https://match1.day/nl/blog/model-calibration.html</link><title>Model Calibration</title><turbo:content><![CDATA[<header><h1>Model Calibration</h1></header><p>This educational resource focuses on analysis, probability, variance, and bankroll discipline. There are no guarantees; outcomes are uncertain. Use information responsibly and follow local laws. This educational resource focuses on analysis, probability, variance, and bankroll discipline. There are no guarantees; outcomes are uncertain. Use information responsibly and follow local laws.</p>]]></turbo:content></item></channel></rss>
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:yandex="http://news.yandex.ru"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:turbo="http://turbo.yandex.ru">
+  <channel>
+    <title>OddsVista – Slimme voetbalanalyses & verantwoord spelen</title>
+    <link>https://match1.day/nl/</link>
+    <description>Data‑gedreven leren: bankroll, value, CLV, xG. Alleen educatief – geen winstgaranties.</description>
+    <language>nl</language>
+    <lastBuildDate>Sat, 27 Sep 2025 20:40:00 +0000</lastBuildDate>
+    <ttl>10</ttl>
+    <generator>OddsVista Turbo Feed</generator>
+    <image>https://match1.day/assets/og-nl.png</image>
+    <item turbo="true">
+      <link>https://match1.day/nl/about.html</link>
+      <guid isPermaLink="true">https://match1.day/nl/about.html</guid>
+      <pubDate>Sat, 27 Sep 2025 09:00:00 +0000</pubDate>
+      <turbo:topic>Over – OddsVista</turbo:topic>
+      <yandex:full-text>Educatief platform: xG, CLV, Kelly en bankroll‑discipline. Geen financieel/ gokadvies.</yandex:full-text>
+      <turbo:content><![CDATA[
+        <header>
+          <h1>Over – OddsVista</h1>
+          <menu>
+            <a href="https://match1.day/nl/">Home</a>
+            <a href="https://match1.day/nl/blog/">Blog</a>
+            <a href="https://match1.day/nl/tools.html">Tools</a>
+            <a href="https://t.me/+IGmU1Hrp330zMDdi">Telegram</a>
+            <a href="https://www.instagram.com/insidewith_lana">Instagram</a>
+            <a href="https://www.threads.com/@insidewith_lana">Threads</a>
+          </menu>
+        </header>
+        <p>Educatief platform: xG, CLV, Kelly en bankroll‑discipline. Geen financieel/ gokadvies.</p>
+        <p>Contact: <a href="mailto:llollaa@tutamail.com">llollaa@tutamail.com</a></p>
+        <footer>© 2025 OddsVista</footer>
+      ]]></turbo:content>
+    </item>
+    <item turbo="true">
+      <link>https://match1.day/nl/contact.html</link>
+      <guid isPermaLink="true">https://match1.day/nl/contact.html</guid>
+      <pubDate>Sat, 27 Sep 2025 09:02:00 +0000</pubDate>
+      <turbo:topic>Contact</turbo:topic>
+      <yandex:full-text>Mail/Telegram/Instagram/Threads. Antwoord binnen 24–48 u (werkdagen).</yandex:full-text>
+      <turbo:content><![CDATA[
+        <header>
+          <h1>Contact</h1>
+          <menu>
+            <a href="https://match1.day/nl/">Home</a>
+            <a href="https://match1.day/nl/blog/">Blog</a>
+            <a href="https://match1.day/nl/tools.html">Tools</a>
+            <a href="https://t.me/+IGmU1Hrp330zMDdi">Telegram</a>
+            <a href="https://www.instagram.com/insidewith_lana">Instagram</a>
+            <a href="https://www.threads.com/@insidewith_lana">Threads</a>
+          </menu>
+        </header>
+        <ul>
+          <li>Email: <a href="mailto:llollaa@tutamail.com">llollaa@tutamail.com</a></li>
+          <li>Telegram: <a href="https://t.me/+IGmU1Hrp330zMDdi">Channel</a></li>
+          <li>Instagram: <a href="https://www.instagram.com/insidewith_lana">@insidewith_lana</a></li>
+          <li>Threads: <a href="https://www.threads.com/@insidewith_lana">@insidewith_lana</a></li>
+        </ul>
+        <footer>© 2025 OddsVista</footer>
+      ]]></turbo:content>
+    </item>
+    <item turbo="true">
+      <link>https://match1.day/nl/faq.html</link>
+      <guid isPermaLink="true">https://match1.day/nl/faq.html</guid>
+      <pubDate>Sat, 27 Sep 2025 09:04:00 +0000</pubDate>
+      <turbo:topic>FAQ – Verantwoord spelen & analytics</turbo:topic>
+      <yandex:full-text>Geen gegarandeerde tips. CLV meet prijs‑kwaliteit. Gebruik units/deel‑Kelly en strikte limieten.</yandex:full-text>
+      <turbo:content><![CDATA[
+        <header>
+          <h1>FAQ – Verantwoord spelen & analytics</h1>
+          <menu>
+            <a href="https://match1.day/nl/">Home</a>
+            <a href="https://match1.day/nl/blog/">Blog</a>
+            <a href="https://match1.day/nl/tools.html">Tools</a>
+            <a href="https://t.me/+IGmU1Hrp330zMDdi">Telegram</a>
+            <a href="https://www.instagram.com/insidewith_lana">Instagram</a>
+            <a href="https://www.threads.com/@insidewith_lana">Threads</a>
+          </menu>
+        </header>
+        <p>Geen gegarandeerde tips. CLV meet prijs‑kwaliteit. Gebruik units/deel‑Kelly en strikte limieten.</p>
+        <footer>© 2025 OddsVista</footer>
+      ]]></turbo:content>
+    </item>
+    <item turbo="true">
+      <link>https://match1.day/nl/blog/arbitrage-legal-overview.html</link>
+      <guid isPermaLink="true">https://match1.day/nl/blog/arbitrage-legal-overview.html</guid>
+      <pubDate>Sat, 27 Sep 2025 09:10:00 +0000</pubDate>
+      <turbo:topic>Arbitrage – Juridisch overzicht</turbo:topic>
+      <yandex:full-text>Licenties, KYC/AML, belastingen, ‘obvious error’. Educatief alleen.</yandex:full-text>
+      <turbo:content><![CDATA[
+        <header>
+          <h1>Arbitrage – Juridisch overzicht</h1>
+          <menu>
+            <a href="https://match1.day/nl/">Home</a>
+            <a href="https://match1.day/nl/blog/">Blog</a>
+            <a href="https://match1.day/nl/tools.html">Tools</a>
+            <a href="https://t.me/+IGmU1Hrp330zMDdi">Telegram</a>
+            <a href="https://www.instagram.com/insidewith_lana">Instagram</a>
+            <a href="https://www.threads.com/@insidewith_lana">Threads</a>
+          </menu>
+        </header>
+        <p>Licenties, KYC/AML, belastingen, ‘obvious error’. Educatief alleen.</p>
+      ]]></turbo:content>
+    </item>
+    <item turbo="true">
+      <link>https://match1.day/nl/blog/bankroll-management-101.html</link>
+      <guid isPermaLink="true">https://match1.day/nl/blog/bankroll-management-101.html</guid>
+      <pubDate>Sat, 27 Sep 2025 09:15:00 +0000</pubDate>
+      <turbo:topic>Bankroll 101</turbo:topic>
+      <yandex:full-text>Unit 0,5–2%; deel‑Kelly 0,25–0,50; maandstop −10%; beoordelen via CLV.</yandex:full-text>
+      <turbo:content><![CDATA[
+        <header>
+          <h1>Bankroll 101</h1>
+          <menu>
+            <a href="https://match1.day/nl/">Home</a>
+            <a href="https://match1.day/nl/blog/">Blog</a>
+            <a href="https://match1.day/nl/tools.html">Tools</a>
+            <a href="https://t.me/+IGmU1Hrp330zMDdi">Telegram</a>
+            <a href="https://www.instagram.com/insidewith_lana">Instagram</a>
+            <a href="https://www.threads.com/@insidewith_lana">Threads</a>
+          </menu>
+        </header>
+        <p>Unit 0,5–2%; deel‑Kelly 0,25–0,50; maandstop −10%; beoordelen via CLV.</p>
+      ]]></turbo:content>
+    </item>
+    <item turbo="true">
+      <link>https://match1.day/nl/blog/bankroll-mistakes.html</link>
+      <guid isPermaLink="true">https://match1.day/nl/blog/bankroll-mistakes.html</guid>
+      <pubDate>Sat, 27 Sep 2025 09:20:00 +0000</pubDate>
+      <turbo:topic>Veelgemaakte bankrollfouten</turbo:topic>
+      <yandex:full-text>Verlies najagen, inzetten opblazen, fees/FX negeren; oppassen met lange parlays.</yandex:full-text>
+      <turbo:content><![CDATA[
+        <header>
+          <h1>Veelgemaakte bankrollfouten</h1>
+          <menu>
+            <a href="https://match1.day/nl/">Home</a>
+            <a href="https://match1.day/nl/blog/">Blog</a>
+            <a href="https://match1.day/nl/tools.html">Tools</a>
+            <a href="https://t.me/+IGmU1Hrp330zMDdi">Telegram</a>
+            <a href="https://www.instagram.com/insidewith_lana">Instagram</a>
+            <a href="https://www.threads.com/@insidewith_lana">Threads</a>
+          </menu>
+        </header>
+        <p>Verlies najagen, inzetten opblazen, fees/FX negeren; oppassen met lange parlays.</p>
+      ]]></turbo:content>
+    </item>
+    <item turbo="true">
+      <link>https://match1.day/nl/blog/bankroll-tracking.html</link>
+      <guid isPermaLink="true">https://match1.day/nl/blog/bankroll-tracking.html</guid>
+      <pubDate>Sat, 27 Sep 2025 09:25:00 +0000</pubDate>
+      <turbo:topic>Bankroll bijhouden</turbo:topic>
+      <yandex:full-text>Noteer markt, prijs, closing, resultaat, kosten; vergelijk met CLV.</yandex:full-text>
+      <turbo:content><![CDATA[
+        <header>
+          <h1>Bankroll bijhouden</h1>
+          <menu>
+            <a href="https://match1.day/nl/">Home</a>
+            <a href="https://match1.day/nl/blog/">Blog</a>
+            <a href="https://match1.day/nl/tools.html">Tools</a>
+            <a href="https://t.me/+IGmU1Hrp330zMDdi">Telegram</a>
+            <a href="https://www.instagram.com/insidewith_lana">Instagram</a>
+            <a href="https://www.threads.com/@insidewith_lana">Threads</a>
+          </menu>
+        </header>
+        <p>Noteer markt, prijs, closing, resultaat, kosten; vergelijk met CLV.</p>
+      ]]></turbo:content>
+    </item>
+    <item turbo="true">
+      <link>https://match1.day/nl/blog/closing-line-value.html</link>
+      <guid isPermaLink="true">https://match1.day/nl/blog/closing-line-value.html</guid>
+      <pubDate>Sat, 27 Sep 2025 09:30:00 +0000</pubDate>
+      <turbo:topic>Closing Line Value</turbo:topic>
+      <yandex:full-text>Als je prijs de closing verslaat, pak je value; pas op voor kleine samples.</yandex:full-text>
+      <turbo:content><![CDATA[
+        <header>
+          <h1>Closing Line Value</h1>
+          <menu>
+            <a href="https://match1.day/nl/">Home</a>
+            <a href="https://match1.day/nl/blog/">Blog</a>
+            <a href="https://match1.day/nl/tools.html">Tools</a>
+            <a href="https://t.me/+IGmU1Hrp330zMDdi">Telegram</a>
+            <a href="https://www.instagram.com/insidewith_lana">Instagram</a>
+            <a href="https://www.threads.com/@insidewith_lana">Threads</a>
+          </menu>
+        </header>
+        <p>Als je prijs de closing verslaat, pak je value; pas op voor kleine samples.</p>
+      ]]></turbo:content>
+    </item>
+    <item turbo="true">
+      <link>https://match1.day/nl/blog/hedging-basics.html</link>
+      <guid isPermaLink="true">https://match1.day/nl/blog/hedging-basics.html</guid>
+      <pubDate>Sat, 27 Sep 2025 09:35:00 +0000</pubDate>
+      <turbo:topic>Hedgen – Basis</turbo:topic>
+      <yandex:full-text>Minder variantie maar kost value; gebruik bij infowijziging of risicolimiet.</yandex:full-text>
+      <turbo:content><![CDATA[
+        <header>
+          <h1>Hedgen – Basis</h1>
+          <menu>
+            <a href="https://match1.day/nl/">Home</a>
+            <a href="https://match1.day/nl/blog/">Blog</a>
+            <a href="https://match1.day/nl/tools.html">Tools</a>
+            <a href="https://t.me/+IGmU1Hrp330zMDdi">Telegram</a>
+            <a href="https://www.instagram.com/insidewith_lana">Instagram</a>
+            <a href="https://www.threads.com/@insidewith_lana">Threads</a>
+          </menu>
+        </header>
+        <p>Minder variantie maar kost value; gebruik bij infowijziging of risicolimiet.</p>
+      ]]></turbo:content>
+    </item>
+    <item turbo="true">
+      <link>https://match1.day/nl/blog/home-away-bias.html</link>
+      <guid isPermaLink="true">https://match1.day/nl/blog/home-away-bias.html</guid>
+      <pubDate>Sat, 27 Sep 2025 09:40:00 +0000</pubDate>
+      <turbo:topic>Thuis/uit‑bias</turbo:topic>
+      <yandex:full-text>Voordeel varieert: reizen, schema, publiek, rotatie.</yandex:full-text>
+      <turbo:content><![CDATA[
+        <header>
+          <h1>Thuis/uit‑bias</h1>
+          <menu>
+            <a href="https://match1.day/nl/">Home</a>
+            <a href="https://match1.day/nl/blog/">Blog</a>
+            <a href="https://match1.day/nl/tools.html">Tools</a>
+            <a href="https://t.me/+IGmU1Hrp330zMDdi">Telegram</a>
+            <a href="https://www.instagram.com/insidewith_lana">Instagram</a>
+            <a href="https://www.threads.com/@insidewith_lana">Threads</a>
+          </menu>
+        </header>
+        <p>Voordeel varieert: reizen, schema, publiek, rotatie.</p>
+      ]]></turbo:content>
+    </item>
+    <item turbo="true">
+      <link>https://match1.day/nl/blog/how-to-read-odds.html</link>
+      <guid isPermaLink="true">https://match1.day/nl/blog/how-to-read-odds.html</guid>
+      <pubDate>Sat, 27 Sep 2025 09:45:00 +0000</pubDate>
+      <turbo:topic>Odds lezen</turbo:topic>
+      <yandex:full-text>Kans = 1 / decimale odd – calculator bij Tools.</yandex:full-text>
+      <turbo:content><![CDATA[
+        <header>
+          <h1>Odds lezen</h1>
+          <menu>
+            <a href="https://match1.day/nl/">Home</a>
+            <a href="https://match1.day/nl/blog/">Blog</a>
+            <a href="https://match1.day/nl/tools.html">Tools</a>
+            <a href="https://t.me/+IGmU1Hrp330zMDdi">Telegram</a>
+            <a href="https://www.instagram.com/insidewith_lana">Instagram</a>
+            <a href="https://www.threads.com/@insidewith_lana">Threads</a>
+          </menu>
+        </header>
+        <p>Kans = 1 / decimale odd – calculator bij Tools.</p>
+      ]]></turbo:content>
+    </item>
+    <item turbo="true">
+      <link>https://match1.day/nl/blog/injuries-impact.html</link>
+      <guid isPermaLink="true">https://match1.day/nl/blog/injuries-impact.html</guid>
+      <pubDate>Sat, 27 Sep 2025 09:50:00 +0000</pubDate>
+      <turbo:topic>Blessure‑impact</turbo:topic>
+      <yandex:full-text>Rol/gebruik, kwaliteit vervanger, timing; vroege nieuws → CLV‑kans.</yandex:full-text>
+      <turbo:content><![CDATA[
+        <header>
+          <h1>Blessure‑impact</h1>
+          <menu>
+            <a href="https://match1.day/nl/">Home</a>
+            <a href="https://match1.day/nl/blog/">Blog</a>
+            <a href="https://match1.day/nl/tools.html">Tools</a>
+            <a href="https://t.me/+IGmU1Hrp330zMDdi">Telegram</a>
+            <a href="https://www.instagram.com/insidewith_lana">Instagram</a>
+            <a href="https://www.threads.com/@insidewith_lana">Threads</a>
+          </menu>
+        </header>
+        <p>Rol/gebruik, kwaliteit vervanger, timing; vroege nieuws → CLV‑kans.</p>
+      ]]></turbo:content>
+    </item>
+    <item turbo="true">
+      <link>https://match1.day/nl/blog/kelly-criterion-explained.html</link>
+      <guid isPermaLink="true">https://match1.day/nl/blog/kelly-criterion-explained.html</guid>
+      <pubDate>Sat, 27 Sep 2025 09:55:00 +0000</pubDate>
+      <turbo:topic>Kelly‑criterium uitgelegd</turbo:topic>
+      <yandex:full-text>f* = max(0,(b·p−(1−p))/b); toepassen als deel‑Kelly (0,25–0,50).</yandex:full-text>
+      <turbo:content><![CDATA[
+        <header>
+          <h1>Kelly‑criterium uitgelegd</h1>
+          <menu>
+            <a href="https://match1.day/nl/">Home</a>
+            <a href="https://match1.day/nl/blog/">Blog</a>
+            <a href="https://match1.day/nl/tools.html">Tools</a>
+            <a href="https://t.me/+IGmU1Hrp330zMDdi">Telegram</a>
+            <a href="https://www.instagram.com/insidewith_lana">Instagram</a>
+            <a href="https://www.threads.com/@insidewith_lana">Threads</a>
+          </menu>
+        </header>
+        <p>f* = max(0,(b·p−(1−p))/b); toepassen als deel‑Kelly (0,25–0,50).</p>
+      ]]></turbo:content>
+    </item>
+    <item turbo="true">
+      <link>https://match1.day/nl/blog/line-shopping-guide.html</link>
+      <guid isPermaLink="true">https://match1.day/nl/blog/line-shopping-guide.html</guid>
+      <pubDate>Sat, 27 Sep 2025 10:00:00 +0000</pubDate>
+      <turbo:topic>Line shopping</turbo:topic>
+      <yandex:full-text>Meerdere gelicentieerde books; marge/kosten/FX; 1–3 ticks stapelen CLV.</yandex:full-text>
+      <turbo:content><![CDATA[
+        <header>
+          <h1>Line shopping</h1>
+          <menu>
+            <a href="https://match1.day/nl/">Home</a>
+            <a href="https://match1.day/nl/blog/">Blog</a>
+            <a href="https://match1.day/nl/tools.html">Tools</a>
+            <a href="https://t.me/+IGmU1Hrp330zMDdi">Telegram</a>
+            <a href="https://www.instagram.com/insidewith_lana">Instagram</a>
+            <a href="https://www.threads.com/@insidewith_lana">Threads</a>
+          </menu>
+        </header>
+        <p>Meerdere gelicentieerde books; marge/kosten/FX; 1–3 ticks stapelen CLV.</p>
+      ]]></turbo:content>
+    </item>
+    <item turbo="true">
+      <link>https://match1.day/nl/blog/live-betting-principles.html</link>
+      <guid isPermaLink="true">https://match1.day/nl/blog/live-betting-principles.html</guid>
+      <pubDate>Sat, 27 Sep 2025 10:05:00 +0000</pubDate>
+      <turbo:topic>Live wedden – Principes</turbo:topic>
+      <yandex:full-text>Latentie schaadt edge; respecteer unit & exposure‑cap.</yandex:full-text>
+      <turbo:content><![CDATA[
+        <header>
+          <h1>Live wedden – Principes</h1>
+          <menu>
+            <a href="https://match1.day/nl/">Home</a>
+            <a href="https://match1.day/nl/blog/">Blog</a>
+            <a href="https://match1.day/nl/tools.html">Tools</a>
+            <a href="https://t.me/+IGmU1Hrp330zMDdi">Telegram</a>
+            <a href="https://www.instagram.com/insidewith_lana">Instagram</a>
+            <a href="https://www.threads.com/@insidewith_lana">Threads</a>
+          </menu>
+        </header>
+        <p>Latentie schaadt edge; respecteer unit & exposure‑cap.</p>
+      ]]></turbo:content>
+    </item>
+    <item turbo="true">
+      <link>https://match1.day/nl/blog/market-movements-101.html</link>
+      <guid isPermaLink="true">https://match1.day/nl/blog/market-movements-101.html</guid>
+      <pubDate>Sat, 27 Sep 2025 10:10:00 +0000</pubDate>
+      <turbo:topic>Marktbewegingen 101</turbo:topic>
+      <yandex:full-text>Nieuws, limieten, hedges, pro‑flows; niet elke move is value.</yandex:full-text>
+      <turbo:content><![CDATA[
+        <header>
+          <h1>Marktbewegingen 101</h1>
+          <menu>
+            <a href="https://match1.day/nl/">Home</a>
+            <a href="https://match1.day/nl/blog/">Blog</a>
+            <a href="https://match1.day/nl/tools.html">Tools</a>
+            <a href="https://t.me/+IGmU1Hrp330zMDdi">Telegram</a>
+            <a href="https://www.instagram.com/insidewith_lana">Instagram</a>
+            <a href="https://www.threads.com/@insidewith_lana">Threads</a>
+          </menu>
+        </header>
+        <p>Nieuws, limieten, hedges, pro‑flows; niet elke move is value.</p>
+      ]]></turbo:content>
+    </item>
+    <item turbo="true">
+      <link>https://match1.day/nl/blog/model-calibration.html</link>
+      <guid isPermaLink="true">https://match1.day/nl/blog/model-calibration.html</guid>
+      <pubDate>Sat, 27 Sep 2025 10:15:00 +0000</pubDate>
+      <turbo:topic>Modelkalibratie</turbo:topic>
+      <yandex:full-text>Betrouwbaarheidscurves, Brier & LogLoss voor over/onder‑confidence.</yandex:full-text>
+      <turbo:content><![CDATA[
+        <header>
+          <h1>Modelkalibratie</h1>
+          <menu>
+            <a href="https://match1.day/nl/">Home</a>
+            <a href="https://match1.day/nl/blog/">Blog</a>
+            <a href="https://match1.day/nl/tools.html">Tools</a>
+            <a href="https://t.me/+IGmU1Hrp330zMDdi">Telegram</a>
+            <a href="https://www.instagram.com/insidewith_lana">Instagram</a>
+            <a href="https://www.threads.com/@insidewith_lana">Threads</a>
+          </menu>
+        </header>
+        <p>Betrouwbaarheidscurves, Brier & LogLoss voor over/onder‑confidence.</p>
+      ]]></turbo:content>
+    </item>
+    <item turbo="true">
+      <link>https://match1.day/nl/blog/odds-comparison.html</link>
+      <guid isPermaLink="true">https://match1.day/nl/blog/odds-comparison.html</guid>
+      <pubDate>Sat, 27 Sep 2025 10:20:00 +0000</pubDate>
+      <turbo:topic>Odds vergelijken</turbo:topic>
+      <yandex:full-text>Vergelijk met liquide referenties; trek marge/kosten/FX af.</yandex:full-text>
+      <turbo:content><![CDATA[
+        <header>
+          <h1>Odds vergelijken</h1>
+          <menu>
+            <a href="https://match1.day/nl/">Home</a>
+            <a href="https://match1.day/nl/blog/">Blog</a>
+            <a href="https://match1.day/nl/tools.html">Tools</a>
+            <a href="https://t.me/+IGmU1Hrp330zMDdi">Telegram</a>
+            <a href="https://www.instagram.com/insidewith_lana">Instagram</a>
+            <a href="https://www.threads.com/@insidewith_lana">Threads</a>
+          </menu>
+        </header>
+        <p>Vergelijk met liquide referenties; trek marge/kosten/FX af.</p>
+      ]]></turbo:content>
+    </item>
+    <item turbo="true">
+      <link>https://match1.day/nl/blog/responsible-betting.html</link>
+      <guid isPermaLink="true">https://match1.day/nl/blog/responsible-betting.html</guid>
+      <pubDate>Sat, 27 Sep 2025 10:25:00 +0000</pubDate>
+      <turbo:topic>Verantwoord spelen</turbo:topic>
+      <yandex:full-text>Stel limieten, jaag geen verliezen na; zoek hulpbronnen lokaal.</yandex:full-text>
+      <turbo:content><![CDATA[
+        <header>
+          <h1>Verantwoord spelen</h1>
+          <menu>
+            <a href="https://match1.day/nl/">Home</a>
+            <a href="https://match1.day/nl/blog/">Blog</a>
+            <a href="https://match1.day/nl/tools.html">Tools</a>
+            <a href="https://t.me/+IGmU1Hrp330zMDdi">Telegram</a>
+            <a href="https://www.instagram.com/insidewith_lana">Instagram</a>
+            <a href="https://www.threads.com/@insidewith_lana">Threads</a>
+          </menu>
+        </header>
+        <p>Stel limieten, jaag geen verliezen na; zoek hulpbronnen lokaal.</p>
+      ]]></turbo:content>
+    </item>
+    <item turbo="true">
+      <link>https://match1.day/nl/blog/value-betting-basics.html</link>
+      <guid isPermaLink="true">https://match1.day/nl/blog/value-betting-basics.html</guid>
+      <pubDate>Sat, 27 Sep 2025 10:30:00 +0000</pubDate>
+      <turbo:topic>Value – Basis</turbo:topic>
+      <yandex:full-text>Zet alleen in als fair‑kans > impliciet na marge/kosten.</yandex:full-text>
+      <turbo:content><![CDATA[
+        <header>
+          <h1>Value – Basis</h1>
+          <menu>
+            <a href="https://match1.day/nl/">Home</a>
+            <a href="https://match1.day/nl/blog/">Blog</a>
+            <a href="https://match1.day/nl/tools.html">Tools</a>
+            <a href="https://t.me/+IGmU1Hrp330zMDdi">Telegram</a>
+            <a href="https://www.instagram.com/insidewith_lana">Instagram</a>
+            <a href="https://www.threads.com/@insidewith_lana">Threads</a>
+          </menu>
+        </header>
+        <p>Zet alleen in als fair‑kans > impliciet na marge/kosten.</p>
+      ]]></turbo:content>
+    </item>
+    <item turbo="true">
+      <link>https://match1.day/nl/blog/variance-and-tilt.html</link>
+      <guid isPermaLink="true">https://match1.day/nl/blog/variance-and-tilt.html</guid>
+      <pubDate>Sat, 27 Sep 2025 10:35:00 +0000</pubDate>
+      <turbo:topic>Varianties & tilt</turbo:topic>
+      <yandex:full-text>Reeksen ≠ besliskwaliteit; emotiedagboek; geen ‘revenge bets’.</yandex:full-text>
+      <turbo:content><![CDATA[
+        <header>
+          <h1>Varianties & tilt</h1>
+          <menu>
+            <a href="https://match1.day/nl/">Home</a>
+            <a href="https://match1.day/nl/blog/">Blog</a>
+            <a href="https://match1.day/nl/tools.html">Tools</a>
+            <a href="https://t.me/+IGmU1Hrp330zMDdi">Telegram</a>
+            <a href="https://www.instagram.com/insidewith_lana">Instagram</a>
+            <a href="https://www.threads.com/@insidewith_lana">Threads</a>
+          </menu>
+        </header>
+        <p>Reeksen ≠ besliskwaliteit; emotiedagboek; geen ‘revenge bets’.</p>
+      ]]></turbo:content>
+    </item>
+    <item turbo="true">
+      <link>https://match1.day/nl/blog/xg-and-form.html</link>
+      <guid isPermaLink="true">https://match1.day/nl/blog/xg-and-form.html</guid>
+      <pubDate>Sat, 27 Sep 2025 10:40:00 +0000</pubDate>
+      <turbo:topic>xG & vorm</turbo:topic>
+      <yandex:full-text>xG meet kanskwaliteit; resultaten schommelen. Gebruik beide.</yandex:full-text>
+      <turbo:content><![CDATA[
+        <header>
+          <h1>xG & vorm</h1>
+          <menu>
+            <a href="https://match1.day/nl/">Home</a>
+            <a href="https://match1.day/nl/blog/">Blog</a>
+            <a href="https://match1.day/nl/tools.html">Tools</a>
+            <a href="https://t.me/+IGmU1Hrp330zMDdi">Telegram</a>
+            <a href="https://www.instagram.com/insidewith_lana">Instagram</a>
+            <a href="https://www.threads.com/@insidewith_lana">Threads</a>
+          </menu>
+        </header>
+        <p>xG meet kanskwaliteit; resultaten schommelen. Gebruik beide.</p>
+      ]]></turbo:content>
+    </item>
+    <item turbo="true">
+      <link>https://match1.day/nl/blog/xg-vs-goals.html</link>
+      <guid isPermaLink="true">https://match1.day/nl/blog/xg-vs-goals.html</guid>
+      <pubDate>Sat, 27 Sep 2025 10:45:00 +0000</pubDate>
+      <turbo:topic>xG vs goals</turbo:topic>
+      <yandex:full-text>Goals zijn noisy; xG volgt kwaliteit. Respecteer steekproefgrootte.</yandex:full-text>
+      <turbo:content><![CDATA[
+        <header>
+          <h1>xG vs goals</h1>
+          <menu>
+            <a href="https://match1.day/nl/">Home</a>
+            <a href="https://match1.day/nl/blog/">Blog</a>
+            <a href="https://match1.day/nl/tools.html">Tools</a>
+            <a href="https://t.me/+IGmU1Hrp330zMDdi">Telegram</a>
+            <a href="https://www.instagram.com/insidewith_lana">Instagram</a>
+            <a href="https://www.threads.com/@insidewith_lana">Threads</a>
+          </menu>
+        </header>
+        <p>Goals zijn noisy; xG volgt kwaliteit. Respecteer steekproefgrootte.</p>
+      ]]></turbo:content>
+    </item>
+  </channel>
+</rss>

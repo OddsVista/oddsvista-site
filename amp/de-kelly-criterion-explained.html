@@ -1,1 +1,106 @@
-<!doctype html><html ⚡ lang="de"><head><meta charset="utf-8"><link rel="canonical" href="https://match1.day/de/blog/kelly-criterion-explained.html"><meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1"><title>Kelly Criterion Explained — OddsVista</title><script async src="https://cdn.ampproject.org/v0.js"></script><style amp-custom>body{font-family:system-ui,Arial;background:#0c0e12;color:#e6e9ef;padding:16px} a{color:#6ee7ff}</style></head><body><main><h1>Kelly Criterion Explained</h1><p>This educational resource focuses on analysis, probability, variance, and bankroll discipline. There are no guarantees; outcomes are uncertain. Use information responsibly and follow local laws. This educational resource focuses on analysis, probability, variance, and bankroll discipline. There are no guarantees; outcomes are uncertain. Use information responsibly and follow local laws. This educational resource focuses on analysis, probability, variance, and bankroll discipline. There are no guarantees; outcomes are uncertain. Use information responsibly and follow local laws. This educational resource focuses on analysis, probability, variance, and bankroll discipline. There are no guarantees; outcomes are uncertain. Use information responsibly and follow local laws. This educational resource focuses on analysis, probability, variance, and bankroll discipline. There are no guarantees; outcomes are uncertain. Use information responsibly and follow local laws. This educational resource focuses on analysis, probability, variance, and bankroll discipline. There are no guarantees; outcomes are uncertain. Use information responsibly and follow local laws. This educational resource focuses on analysis, probability, variance, and bankroll discipline. There are no guarantees; outcomes are uncertain. Use information responsibly and follow local laws. This educational resource focuses on analysis, probability, variance, and bankroll discipline. There are no guarantees; outcomes are uncertain. Use information responsibly and follow local laws.</p></main></body></html>
+<!doctype html>
+<html amp lang="de" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Kelly-Kriterium erklärt — Fraktionen, Risk of Ruin & Praxis — OddsVista</title>
+  <meta name="description" content="Kelly maximiert log-Growth, ist aber volatil. Fractional-Kelly (0.25–0.50) reduziert Drawdowns. Praxisleitfaden mit Formel, Beispiel, Regeln & Fehlervermeidung.">
+  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+  <link rel="canonical" href="https://match1.day/de/blog/kelly-criterion-explained.html">
+  <script async src="https://cdn.ampproject.org/v0.js"></script>
+  <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 both;animation:-amp-start 8s steps(1,end) 0s 1 both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;animation:none}</style></noscript>
+
+  <!-- OG/Twitter -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Kelly-Kriterium erklärt — Praxisleitfaden">
+  <meta property="og:description" content="Fractional Kelly, Formel, Beispiel, Drawdown-Regeln & Fehlervermeidung.">
+  <meta property="og:image" content="https://match1.day/assets/og-de.png">
+  <meta property="og:url" content="https://match1.day/de/blog/kelly-criterion-explained.html">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- hreflang -->
+  <link rel="alternate" hreflang="de" href="https://match1.day/de/blog/kelly-criterion-explained.html">
+  <link rel="alternate" hreflang="en" href="https://match1.day/en/blog/kelly-criterion-explained.html">
+  <link rel="alternate" hreflang="x-default" href="https://match1.day/en/blog/kelly-criterion-explained.html">
+
+  <!-- BlogPosting -->
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"BlogPosting","headline":"Kelly-Kriterium erklärt — Fraktionen & Praxis","inLanguage":"de","description":"Formel, Fractional-Kelly, Risiko/Drawdown und praktische Regeln zur Bankroll-Steuerung.","image":"https://match1.day/assets/og-de.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://match1.day/de/blog/kelly-criterion-explained.html"},"author":{"@type":"Organization","name":"OddsVista"},"publisher":{"@type":"Organization","name":"OddsVista","logo":{"@type":"ImageObject","url":"https://match1.day/assets/logo.png"}},"datePublished":"2025-09-27","dateModified":"2025-09-27"}
+  </script>
+
+  <!-- Breadcrumbs -->
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
+    {"@type":"ListItem","position":1,"name":"Home","item":"https://match1.day/de/"},
+    {"@type":"ListItem","position":2,"name":"Blog","item":"https://match1.day/de/blog/"},
+    {"@type":"ListItem","position":3,"name":"Kelly-Kriterium erklärt","item":"https://match1.day/de/blog/kelly-criterion-explained.html"}
+  ]}
+  </script>
+
+  <!-- HowTo + FAQ -->
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"HowTo","name":"Fractional-Kelly anwenden","step":[
+    {"@type":"HowToStep","name":"Edge schätzen","text":"Wahrscheinlichkeit p_true und Dezimalquote d bestimmen."},
+    {"@type":"HowToStep","name":"Kelly berechnen","text":"b = d − 1; f* = max(0, (b·p − (1−p))/b)."},
+    {"@type":"HowToStep","name":"Fraktion wählen","text":"0.25–0.50 von f* zur Varianzreduktion und gegen Modellfehler."},
+    {"@type":"HowToStep","name":"Regeln setzen","text":"Unit-Cap, Monats-Loss-Stop (z. B. −10 %) und CLV-Review einführen."}
+  ]}
+  </script>
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+    {"@type":"Question","name":"Warum nicht Full-Kelly?","acceptedAnswer":{"@type":"Answer","text":"Full-Kelly reagiert extrem auf Edge-Fehler und erhöht Drawdowns. Fractional-Kelly halbiert die Volatilität bei geringem Growth-Verlust."}},
+    {"@type":"Question","name":"Was, wenn Edge unsicher ist?","acceptedAnswer":{"@type":"Answer","text":"Konservativ fraktionieren (0.25–0.33), Unit-Cap beibehalten und Stakes nur bei stabil positivem CLV erhöhen."}}
+  ]}
+  </script>
+
+  <style amp-custom>
+    :root{--bg:#0b1020;--bg2:#0a142d;--fg:#e6e9ef;--muted:#a7adbd;--card:#141c34;--b:#23314f;--c1:#6ee7ff;--c2:#7cff9f;--danger:#ef4444}
+    body{margin:0;font-family:Inter,system-ui,Arial;background:linear-gradient(180deg,var(--bg),var(--bg2));color:var(--fg)}
+    header{padding:12px 16px;text-align:center;background:rgba(10,14,28,.92);border-bottom:1px solid rgba(110,231,255,.18)}
+    .logo{font-weight:900;color:var(--c1)}
+    main{max-width:860px;margin:0 auto;padding:22px 16px}
+    .card{background:rgba(20,28,52,.88);border:1px solid var(--b);border-radius:14px;box-shadow:0 12px 28px rgba(0,0,0,.35);padding:22px}
+    h1{margin:0 0 12px} h2{margin:18px 0 10px}
+    p,li,.k{line-height:1.7;color:#cbd5e1}
+    .k{display:inline-block;background:rgba(255,255,255,.06);border:1px solid var(--b);border-radius:10px;padding:6px 10px;font-family:ui-monospace,monospace}
+    .note{background:rgba(124,255,159,.1);border:1px dashed rgba(124,255,159,.45);border-radius:10px;padding:12px;margin:12px 0}
+    .bad{background:rgba(239,68,68,.12);border:1px solid rgba(239,68,68,.35);border-radius:10px;padding:12px;margin:14px 0}
+    .links{margin-top:14px;border-top:1px solid rgba(255,255,255,.06);padding-top:12px}
+    .links a{color:var(--c1);text-decoration:none;margin-right:10px;font-weight:600}
+    footer{text-align:center;color:#94a3b8;padding:18px 12px}
+  </style>
+</head>
+<body>
+<header><div class="logo">OddsVista</div></header>
+<main>
+  <article class="card">
+    <h1>Kelly-Kriterium erklärt</h1>
+    <p><b>Kelly</b> maximiert log-Growth, ist aber <b>empfindlich</b> gegenüber Edge-Fehlern. In der Praxis fährt man mit <b>Fractional-Kelly (0.25–0.50)</b> robuster und vermeidet tiefe Drawdowns.</p>
+
+    <h2>Formel & Praxis</h2>
+    <p class="k">b = d − 1  •  f* = max(0, (b·p − (1−p))/b)</p>
+    <ul>
+      <li><b>Unit-System:</b> 1 Unit = 0,5–2 % der BR; keine Ad-hoc-Erhöhungen.</li>
+      <li><b>Drawdown-Regeln:</b> z. B. −10 %/Monat ⇒ Pause & Review.</li>
+      <li><b>CLV-Kontrolle:</b> Stake nur erhöhen, wenn CLV über ≥ 300 Bets konsistent positiv.</li>
+    </ul>
+
+    <h2>Beispielrechnung</h2>
+    <p class="k">d = 2.20 → b = 1.20, p = 0.50 → f* = 8.3 %; Half-Kelly ≈ 4.2 % der BR.</p>
+
+    <div class="bad"><b>Fehler vermeiden:</b> Full-Kelly bei unsicherem Edge, Nachjagen von Verlusten, Parlay-Overexposure, Fees/FX ignorieren, Promotions missbrauchen (AGB-Risiko).</div>
+
+    <div class="note">Bildungsinhalt. Keine Finanz- oder Wettberatung. Folge lokalen Gesetzen & Plattform-AGB.</div>
+
+    <div class="links">
+      <strong>Weiterlesen:</strong>
+      <a href="/de/blog/bankroll-management-101.html">Bankroll-Management</a>
+      <a href="/de/blog/value-betting-basics.html">Value-Betting</a>
+      <a href="/de/blog/variance-and-tilt.html">Varianz & Tilt</a>
+      <a href="/de/blog/closing-line-value.html">CLV</a>
+      <a href="/de/blog/responsible-betting.html">Responsible Betting</a>
+    </div>
+  </article>
+</main>
+<footer>© 2025 OddsVista — Bildung, keine Garantien.</footer>
+</body>
+</html>

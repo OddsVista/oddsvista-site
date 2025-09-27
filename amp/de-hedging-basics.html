@@ -1,1 +1,84 @@
-<!doctype html><html ⚡ lang="de"><head><meta charset="utf-8"><link rel="canonical" href="https://match1.day/de/blog/hedging-basics.html"><meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1"><title>Hedging Basics — OddsVista</title><script async src="https://cdn.ampproject.org/v0.js"></script><style amp-custom>body{font-family:system-ui,Arial;background:#0c0e12;color:#e6e9ef;padding:16px} a{color:#6ee7ff}</style></head><body><main><h1>Hedging Basics</h1><p>This educational resource focuses on analysis, probability, variance, and bankroll discipline. There are no guarantees; outcomes are uncertain. Use information responsibly and follow local laws. This educational resource focuses on analysis, probability, variance, and bankroll discipline. There are no guarantees; outcomes are uncertain. Use information responsibly and follow local laws. This educational resource focuses on analysis, probability, variance, and bankroll discipline. There are no guarantees; outcomes are uncertain. Use information responsibly and follow local laws. This educational resource focuses on analysis, probability, variance, and bankroll discipline. There are no guarantees; outcomes are uncertain. Use information responsibly and follow local laws. This educational resource focuses on analysis, probability, variance, and bankroll discipline. There are no guarantees; outcomes are uncertain. Use information responsibly and follow local laws. This educational resource focuses on analysis, probability, variance, and bankroll discipline. There are no guarantees; outcomes are uncertain. Use information responsibly and follow local laws. This educational resource focuses on analysis, probability, variance, and bankroll discipline. There are no guarantees; outcomes are uncertain. Use information responsibly and follow local laws. This educational resource focuses on analysis, probability, variance, and bankroll discipline. There are no guarantees; outcomes are uncertain. Use information responsibly and follow local laws.</p></main></body></html>
+<!doctype html>
+<html amp lang="de" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Hedging Basics — Risiko glätten Schritt für Schritt — OddsVista</title>
+  <meta name="description" content="Wann hedgen? Märkte, Einsatzrelationen, Liquidität, Kosten und Timing. Kompakter HowTo-Leitfaden für pragmatisches Risiko-Glätten.">
+  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+  <link rel="canonical" href="https://match1.day/de/blog/hedging-basics.html">
+
+  <script async src="https://cdn.ampproject.org/v0.js"></script>
+  <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style>
+  <noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Hedging Basics — Schritt-für-Schritt">
+  <meta property="og:description" content="Wann und wie man Hedge-Positionen setzt; Trade-offs und Kosten.">
+  <meta property="og:url" content="https://match1.day/de/blog/hedging-basics.html">
+  <meta property="og:image" content="https://match1.day/assets/og-de.png">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="alternate" hreflang="de" href="https://match1.day/de/blog/hedging-basics.html">
+  <link rel="alternate" hreflang="en" href="https://match1.day/en/blog/hedging-basics.html">
+  <link rel="alternate" hreflang="x-default" href="https://match1.day/en/blog/hedging-basics.html">
+
+  <!-- BlogPosting -->
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"BlogPosting","headline":"Hedging Basics — Risiko glätten","inLanguage":"de","description":"Warum, wann und wie hedgen? Märkte, Einsatzrelationen, Liquidität, Gebühren und Timing.","image":"https://match1.day/assets/og-de.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://match1.day/de/blog/hedging-basics.html"},"author":{"@type":"Organization","name":"OddsVista"},"publisher":{"@type":"Organization","name":"OddsVista","logo":{"@type":"ImageObject","url":"https://match1.day/assets/logo.png"}},"datePublished":"2025-09-27","dateModified":"2025-09-27"}
+  </script>
+  <!-- Breadcrumbs -->
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
+    {"@type":"ListItem","position":1,"name":"Home","item":"https://match1.day/de/"},
+    {"@type":"ListItem","position":2,"name":"Blog","item":"https://match1.day/de/blog/"},
+    {"@type":"ListItem","position":3,"name":"Hedging Basics","item":"https://match1.day/de/blog/hedging-basics.html"}
+  ]}
+  </script>
+  <!-- HowTo -->
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"HowTo","name":"Einfaches Event-Hedging","description":"Gegenposition setzen, um Varianz zu reduzieren.","step":[
+    {"@type":"HowToStep","name":"Ausgangs-Exposure bestimmen","text":"Welche Outcomes wirken auf die Bankroll?"},
+    {"@type":"HowToStep","name":"Hedge-Markt wählen","text":"Liquider, korrelierter Markt (z. B. 1X2 vs. DNB/Asian)."},
+    {"@type":"HowToStep","name":"Stake berechnen","text":"Ziel-Payouts/EV abgleichen, Fees/Steuern berücksichtigen."},
+    {"@type":"HowToStep","name":"Ausführen & Loggen","text":"Zeitpunkt, Quote, Kosten dokumentieren; Post-Mortem nach Event."}
+  ]}
+  </script>
+
+  <style amp-custom>
+    :root{--bg:#0b1020;--bg2:#0a142d;--fg:#e6e9ef;--muted:#a7adbd;--card:#141c34;--b:#23314f;--c1:#6ee7ff;--c2:#7cff9f}
+    body{margin:0;font-family:Inter,system-ui,Arial;background:linear-gradient(180deg,var(--bg),var(--bg2));color:var(--fg)}
+    header{padding:12px 16px;text-align:center;background:rgba(10,14,28,.92);border-bottom:1px solid rgba(110,231,255,.18)}
+    .logo{font-weight:900;color:var(--c1)}
+    main{max-width:860px;margin:0 auto;padding:20px 16px}
+    .card{background:rgba(20,28,52,.85);border:1px solid var(--b);border-radius:14px;box-shadow:0 8px 26px rgba(0,0,0,.25);padding:22px}
+    h1{margin:0 0 10px} h2{margin:18px 0 10px;font-size:1.15rem}
+    p,li{line-height:1.7;color:#cbd5e1}
+    .warn{background:rgba(239,68,68,.12);border:1px solid rgba(239,68,68,.35);border-radius:10px;padding:12px;margin:10px 0}
+    .note{background:rgba(124,255,159,.1);border:1px dashed rgba(124,255,159,.4);border-radius:10px;padding:12px;margin:10px 0}
+    .btn{display:inline-block;margin-top:12px;padding:12px 16px;border-radius:12px;background:linear-gradient(135deg,var(--c2),var(--c1));color:#001018;font-weight:800;text-decoration:none}
+    footer{text-align:center;color:#94a3b8;padding:18px 12px}
+  </style>
+</head>
+<body>
+<header><div class="logo">OddsVista</div></header>
+<main>
+  <article class="card">
+    <h1>Hedging Basics</h1>
+    <p><strong>Hedging</strong> reduziert Varianz, kostet aber Edge (Gebühren/Spread). Sinnvoll bei hoher Exposure, News-Unsicherheit oder Limitdruck.</p>
+
+    <h2>Trade-offs</h2>
+    <ul>
+      <li><b>Pro:</b> glattere Equity-Kurve, geringere Drawdowns.</li>
+      <li><b>Contra:</b> Gebühren, Slippage, Opportunitätskosten.</li>
+      <li><b>Praxis:</b> nur in liquiden Märkten, klare Stake-Formel, alles loggen.</li>
+    </ul>
+
+    <p class="warn">Kein Hedging aus Panik. Entscheidung muss ex-ante begründet sein (Regelwerk!).</p>
+    <p class="note">Nach jedem Hedge: Post-Mortem — hat es EV/Varianz wie geplant verändert?</p>
+
+    <a class="btn" href="https://t.me/+IGmU1Hrp330zMDdi">Telegram beitreten</a>
+  </article>
+</main>
+<footer>© 2025 OddsVista.</footer>
+</body>
+</html>

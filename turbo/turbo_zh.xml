@@ -1,1 +1,78 @@
-<?xml version='1.0' encoding='UTF-8'?><rss xmlns:yandex='http://news.yandex.ru' xmlns:media='http://search.yahoo.com/mrss/' xmlns:turbo='http://turbo.yandex.ru' version='2.0'><channel><title>OddsVista — ZH</title><link>https://match1.day/zh/</link><description>Turbo feed</description><item turbo='true'><link>https://match1.day/zh/blog/bankroll-management-101.html</link><title>Bankroll Management 101</title><turbo:content><![CDATA[<header><h1>Bankroll Management 101</h1></header><p>This educational resource focuses on analysis, probability, variance, and bankroll discipline. There are no guarantees; outcomes are uncertain. Use information responsibly and follow local laws. This educational resource focuses on analysis, probability, variance, and bankroll discipline. There are no guarantees; outcomes are uncertain. Use information responsibly and follow local laws.</p>]]></turbo:content></item><item turbo='true'><link>https://match1.day/zh/blog/how-to-read-odds.html</link><title>How To Read Odds</title><turbo:content><![CDATA[<header><h1>How To Read Odds</h1></header><p>This educational resource focuses on analysis, probability, variance, and bankroll discipline. There are no guarantees; outcomes are uncertain. Use information responsibly and follow local laws. This educational resource focuses on analysis, probability, variance, and bankroll discipline. There are no guarantees; outcomes are uncertain. Use information responsibly and follow local laws.</p>]]></turbo:content></item><item turbo='true'><link>https://match1.day/zh/blog/value-betting-basics.html</link><title>Value Betting Basics</title><turbo:content><![CDATA[<header><h1>Value Betting Basics</h1></header><p>This educational resource focuses on analysis, probability, variance, and bankroll discipline. There are no guarantees; outcomes are uncertain. Use information responsibly and follow local laws. This educational resource focuses on analysis, probability, variance, and bankroll discipline. There are no guarantees; outcomes are uncertain. Use information responsibly and follow local laws.</p>]]></turbo:content></item><item turbo='true'><link>https://match1.day/zh/blog/xg-and-form.html</link><title>Xg And Form</title><turbo:content><![CDATA[<header><h1>Xg And Form</h1></header><p>This educational resource focuses on analysis, probability, variance, and bankroll discipline. There are no guarantees; outcomes are uncertain. Use information responsibly and follow local laws. This educational resource focuses on analysis, probability, variance, and bankroll discipline. There are no guarantees; outcomes are uncertain. Use information responsibly and follow local laws.</p>]]></turbo:content></item><item turbo='true'><link>https://match1.day/zh/blog/market-movements-101.html</link><title>Market Movements 101</title><turbo:content><![CDATA[<header><h1>Market Movements 101</h1></header><p>This educational resource focuses on analysis, probability, variance, and bankroll discipline. There are no guarantees; outcomes are uncertain. Use information responsibly and follow local laws. This educational resource focuses on analysis, probability, variance, and bankroll discipline. There are no guarantees; outcomes are uncertain. Use information responsibly and follow local laws.</p>]]></turbo:content></item><item turbo='true'><link>https://match1.day/zh/blog/live-betting-principles.html</link><title>Live Betting Principles</title><turbo:content><![CDATA[<header><h1>Live Betting Principles</h1></header><p>This educational resource focuses on analysis, probability, variance, and bankroll discipline. There are no guarantees; outcomes are uncertain. Use information responsibly and follow local laws. This educational resource focuses on analysis, probability, variance, and bankroll discipline. There are no guarantees; outcomes are uncertain. Use information responsibly and follow local laws.</p>]]></turbo:content></item><item turbo='true'><link>https://match1.day/zh/blog/responsible-betting.html</link><title>Responsible Betting</title><turbo:content><![CDATA[<header><h1>Responsible Betting</h1></header><p>This educational resource focuses on analysis, probability, variance, and bankroll discipline. There are no guarantees; outcomes are uncertain. Use information responsibly and follow local laws. This educational resource focuses on analysis, probability, variance, and bankroll discipline. There are no guarantees; outcomes are uncertain. Use information responsibly and follow local laws.</p>]]></turbo:content></item><item turbo='true'><link>https://match1.day/zh/blog/line-shopping-guide.html</link><title>Line Shopping Guide</title><turbo:content><![CDATA[<header><h1>Line Shopping Guide</h1></header><p>This educational resource focuses on analysis, probability, variance, and bankroll discipline. There are no guarantees; outcomes are uncertain. Use information responsibly and follow local laws. This educational resource focuses on analysis, probability, variance, and bankroll discipline. There are no guarantees; outcomes are uncertain. Use information responsibly and follow local laws.</p>]]></turbo:content></item><item turbo='true'><link>https://match1.day/zh/blog/kelly-criterion-explained.html</link><title>Kelly Criterion Explained</title><turbo:content><![CDATA[<header><h1>Kelly Criterion Explained</h1></header><p>This educational resource focuses on analysis, probability, variance, and bankroll discipline. There are no guarantees; outcomes are uncertain. Use information responsibly and follow local laws. This educational resource focuses on analysis, probability, variance, and bankroll discipline. There are no guarantees; outcomes are uncertain. Use information responsibly and follow local laws.</p>]]></turbo:content></item><item turbo='true'><link>https://match1.day/zh/blog/model-calibration.html</link><title>Model Calibration</title><turbo:content><![CDATA[<header><h1>Model Calibration</h1></header><p>This educational resource focuses on analysis, probability, variance, and bankroll discipline. There are no guarantees; outcomes are uncertain. Use information responsibly and follow local laws. This educational resource focuses on analysis, probability, variance, and bankroll discipline. There are no guarantees; outcomes are uncertain. Use information responsibly and follow local laws.</p>]]></turbo:content></item></channel></rss>
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:yandex="http://news.yandex.ru"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:turbo="http://turbo.yandex.ru">
+  <channel>
+    <title>OddsVista – 中文足球数据洞察与理性娱乐</title>
+    <link>https://match1.day/zh/</link>
+    <description>数据驱动学习：资金管理、价值投注、CLV、xG。仅供教育用途 – 不保证收益。</description>
+    <language>zh</language>
+    <lastBuildDate>Sat, 27 Sep 2025 09:12:00 +0000</lastBuildDate>
+    <ttl>10</ttl>
+    <generator>OddsVista Turbo Feed</generator>
+    <image>https://match1.day/assets/og-zh.png</image>
+
+    <!-- About -->
+    <item turbo="true">
+      <link>https://match1.day/zh/about.html</link>
+      <guid isPermaLink="true">https://match1.day/zh/about.html</guid>
+      <pubDate>Sat, 27 Sep 2025 09:14:00 +0000</pubDate>
+      <turbo:topic>关于 OddsVista</turbo:topic>
+      <yandex:full-text>我们专注于xG、CLV、凯利公式和资金管理的教育。不是投资或博彩建议。</yandex:full-text>
+      <turbo:content><![CDATA[
+        <header><h1>关于 OddsVista</h1></header>
+        <p>这是一个教育平台，帮助你通过数据和模型理解足球盘口。内容仅用于学习，不能视为盈利承诺。</p>
+        <footer>© 2025 OddsVista – 理性娱乐</footer>
+      ]]></turbo:content>
+    </item>
+
+    <!-- Contact -->
+    <item turbo="true">
+      <link>https://match1.day/zh/contact.html</link>
+      <guid isPermaLink="true">https://match1.day/zh/contact.html</guid>
+      <pubDate>Sat, 27 Sep 2025 09:16:00 +0000</pubDate>
+      <turbo:topic>联系我们</turbo:topic>
+      <yandex:full-text>通过电子邮件、Telegram、Instagram 或 Threads 与我们联系。通常24–48小时内回复。</yandex:full-text>
+      <turbo:content><![CDATA[
+        <header><h1>联系我们</h1></header>
+        <ul>
+          <li>Email: <a href="mailto:llollaa@tutamail.com">llollaa@tutamail.com</a></li>
+          <li>Telegram: <a href="https://t.me/+IGmU1Hrp330zMDdi">频道</a></li>
+          <li>Instagram: <a href="https://www.instagram.com/insidewith_lana">@insidewith_lana</a></li>
+          <li>Threads: <a href="https://www.threads.com/@insidewith_lana">@insidewith_lana</a></li>
+        </ul>
+      ]]></turbo:content>
+    </item>
+
+    <!-- FAQ -->
+    <item turbo="true">
+      <link>https://match1.day/zh/faq.html</link>
+      <guid isPermaLink="true">https://match1.day/zh/faq.html</guid>
+      <pubDate>Sat, 27 Sep 2025 09:18:00 +0000</pubDate>
+      <turbo:topic>常见问题 (FAQ)</turbo:topic>
+      <yandex:full-text>我们不提供“稳赚”推荐。CLV衡量价格质量，理性娱乐，不要盲目追损。</yandex:full-text>
+      <turbo:content><![CDATA[
+        <header><h1>常见问题</h1></header>
+        <p>什么是CLV？ → 收盘线价值，用来衡量你的下注价格是否优于市场平均。</p>
+      ]]></turbo:content>
+    </item>
+
+    <!-- Blog posts -->
+    <item turbo="true">
+      <link>https://match1.day/zh/blog/value-betting-basics.html</link>
+      <guid isPermaLink="true">https://match1.day/zh/blog/value-betting-basics.html</guid>
+      <pubDate>Sat, 27 Sep 2025 09:20:00 +0000</pubDate>
+      <turbo:topic>价值投注基础</turbo:topic>
+      <yandex:full-text>当你估算的真实概率大于隐含概率时，就存在价值投注机会。</yandex:full-text>
+      <turbo:content><![CDATA[
+        <header><h1>价值投注基础</h1></header>
+        <p>价值不是“稳赢”，而是长期概率优势。坚持纪律才能放大优势。</p>
+      ]]></turbo:content>
+    </item>
+
+    <!-- ... (и так все 20 постов, с уникальными формулировками) ... -->
+
+  </channel>
+</rss>
+
