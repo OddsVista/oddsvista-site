@@ -336,3 +336,7 @@ a:hover{opacity:.92}
 @media (prefers-reduced-motion: reduce){
   * { animation: none !important; transition: none !important }
 }
+/* Hide old language row under header */
+.site-header + .container.tiny {
+  display: none !important;
+}
