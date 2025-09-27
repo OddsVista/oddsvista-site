@@ -1,16 +1,11 @@
+# EN pages
+/en/about.html      /en/about/       301
+/en/contact.html    /en/contact/     301
+/en/blog.html       /en/blog/        301
+/en/tools.html      /en/tools/       301
+/en/faq.html        /en/faq/         301
+/en/glossary.html   /en/glossary/    301
 
-/  /en/ 302
-/en  /en/ 301
-/de  /de/ 301
-/fr  /fr/ 301
-/es  /es/ 301
-/it  /it/ 301
-/pt  /pt/ 301
-/nl  /nl/ 301
-/pl  /pl/ 301
-/tr  /tr/ 301
-/ar  /ar/ 301
-/zh  /zh/ 301
-/ja  /ja/ 301
-/ko  /ko/ 301
-/sv  /sv/ 301
+/en/leagues.html    /en/leagues/     301
+/en/countries.html  /en/countries/   301
+/en/teams.html      /en/teams/       301
