@@ -842,3 +842,59 @@ body{
   filter: blur(18px);
   opacity:.9;
 }
+/* ===== LANG PILLS (compact, scrollable) ===== */
+.site-header + .container.tiny{
+  display:block; overflow:auto; white-space:nowrap;
+  scrollbar-width:none; -ms-overflow-style:none; padding:6px 0 10px;
+}
+.site-header + .container.tiny::-webkit-scrollbar{display:none}
+.site-header + .container.tiny span{ margin-right:10px; opacity:.8 }
+.site-header + .container.tiny a{
+  display:inline-block; margin-right:8px; padding:4px 10px 5px;
+  border-radius:999px; font-size:.92rem; letter-spacing:.02em;
+  background:rgba(255,255,255,.05);
+  border:1px solid rgba(255,255,255,.10);
+  transition:transform .15s ease, background .2s ease, border-color .2s ease, opacity .2s ease;
+}
+.site-header + .container.tiny a:hover{
+  transform:translateY(-1px);
+  background:rgba(255,255,255,.07);
+  border-color:rgba(255,255,255,.14);
+  opacity:1;
+}
+.lang-pill--active{
+  background:linear-gradient(180deg, rgba(124,255,159,.14), rgba(110,231,255,.12)) !important;
+  border-color:rgba(110,231,255,.28) !important;
+  box-shadow:0 6px 16px rgba(0,0,0,.18);
+}
+
+/* ===== HERO CARD premium glow + breathing ===== */
+.hero-card{
+  position:relative;
+  overflow:hidden;
+}
+.hero-card::before{
+  content:""; position:absolute; inset:-30% -10%; pointer-events:none; z-index:0;
+  background:
+    radial-gradient(60% 40% at 20% 10%, rgba(107,124,255,.20), transparent 65%),
+    radial-gradient(55% 45% at 85% 20%, rgba(45,212,191,.16), transparent 65%),
+    radial-gradient(45% 35% at 10% 90%, rgba(155,92,255,.14), transparent 65%);
+  filter:saturate(120%);
+  animation:heroBreath 14s ease-in-out infinite alternate;
+}
+@keyframes heroBreath{
+  0%   { transform:translate3d(0,0,0) scale(1);      filter:hue-rotate(0deg) }
+  100% { transform:translate3d(-2%,1%,0) scale(1.03); filter:hue-rotate(10deg) }
+}
+
+/* ===== Reveal animations (fade+lift) ===== */
+.reveal{ opacity:0; transform:translateY(10px); transition:opacity .6s ease, transform .6s ease; }
+.reveal.in{ opacity:1; transform:none; }
+.reveal.d1{ transition-delay:.06s } .reveal.d2{ transition-delay:.12s }
+.reveal.d3{ transition-delay:.18s } .reveal.d4{ transition-delay:.24s }
+
+/* чуть компактнее верхнюю навигацию на мобиле */
+@media (max-width:768px){
+  .nav{ gap:8px 12px }
+  .nav a{ font-weight:600; opacity:.95 }
+}

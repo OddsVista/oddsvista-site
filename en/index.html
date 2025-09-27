@@ -1,6 +1,91 @@
 <!doctype html>
 <html lang="en" dir="ltr">
 <head>
+  <!-- Organization (расширенная) -->
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"Organization",
+  "@id":"https://match1.day/#org",
+  "name":"OddsVista",
+  "url":"https://match1.day/",
+  "logo":{
+    "@type":"ImageObject",
+    "url":"https://match1.day/assets/logo.png"
+  },
+  "brand":"OddsVista",
+  "description":"Data-driven football insights, odds education, and bankroll strategy. Educational only; no guaranteed results.",
+  "sameAs":[
+    "https://t.me/+IGmU1Hrp330zMDdi"
+  ],
+  "contactPoint":[{
+    "@type":"ContactPoint",
+    "contactType":"customer support",
+    "availableLanguage":["en","de","fr","es","it","pt"],
+    "url":"https://match1.day/en/contact.html"
+  }]
+}
+</script>
+
+<!-- WebSite + SearchAction (примерно как у тебя, но связали с @id) -->
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"WebSite",
+  "@id":"https://match1.day/#website",
+  "url":"https://match1.day/",
+  "name":"OddsVista",
+  "inLanguage":"en",
+  "publisher":{"@id":"https://match1.day/#org"},
+  "potentialAction":{
+    "@type":"SearchAction",
+    "target":"https://match1.day/en/search?q={search_term_string}",
+    "query-input":"required name=search_term_string"
+  }
+}
+</script>
+
+<!-- WebPage (Home) -->
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"WebPage",
+  "@id":"https://match1.day/en/#webpage",
+  "url":"https://match1.day/en/",
+  "name":"Smart Football Insights | OddsVista",
+  "isPartOf":{"@id":"https://match1.day/#website"},
+  "inLanguage":"en",
+  "about":{"@id":"https://match1.day/#org"},
+  "description":"Smart football insights with odds education, bankroll strategy and xG. Educational only; no results guaranteed.",
+  "breadcrumb":{
+    "@type":"BreadcrumbList",
+    "itemListElement":[
+      {"@type":"ListItem","position":1,"name":"Home","item":"https://match1.day/en/"}
+    ]
+  }
+}
+</script>
+
+<!-- SiteNavigationElement (главные пункты меню) -->
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"ItemList",
+  "itemListElement":[
+    {"@type":"SiteNavigationElement","name":"Home","url":"https://match1.day/en/"},
+    {"@type":"SiteNavigationElement","name":"Blog","url":"https://match1.day/en/blog/"},
+    {"@type":"SiteNavigationElement","name":"Glossary","url":"https://match1.day/en/glossary.html"},
+    {"@type":"SiteNavigationElement","name":"FAQ","url":"https://match1.day/en/faq.html"},
+    {"@type":"SiteNavigationElement","name":"Tools","url":"https://match1.day/en/tools.html"},
+    {"@type":"SiteNavigationElement","name":"Leagues","url":"https://match1.day/en/leagues/"},
+    {"@type":"SiteNavigationElement","name":"Countries","url":"https://match1.day/en/countries/"},
+    {"@type":"SiteNavigationElement","name":"Teams","url":"https://match1.day/en/teams/"},
+    {"@type":"SiteNavigationElement","name":"Contact","url":"https://match1.day/en/contact.html"},
+    {"@type":"SiteNavigationElement","name":"About","url":"https://match1.day/en/about.html"}
+  ]
+}
+</script>
+
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -161,7 +246,7 @@
           <!-- KPI badge -->
 <div class="kpi-hero">
   <div class="kpi-badge">
-    <span class="kpi-label">Index</span>
+    <span class="kpi-label">Odds</span>
     <span class="kpi-value" id="kpiNumber">197.0</span>
   </div>
   <div class="kpi-meta">Free updates • No spam</div>
@@ -226,6 +311,7 @@
       requestAnimationFrame(tick);
     })();
   </script>
-  <script src="/js/config.js"></script>
+<script src="/js/config.js"></script>
+<script src="/js/main.js"></script>
 </body>
 </html>
