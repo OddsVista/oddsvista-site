@@ -232,6 +232,42 @@
   </div>
 </header>
 
+<header class="site-header" role="banner">
+  <div class="container nav-flex">
+    <a class="logo" href="./"><span class="logo-mark">OV</span><span style="margin-left:8px">OddsVista</span></a>
+    <nav class="nav" role="navigation" aria-label="Primary">
+      <!-- Ставим абсолютные пути для EN (на проде всегда работают) -->
+      <a href="/en/">Home</a>
+      <a href="/en/blog/">Blog</a>
+      <a href="/en/glossary.html">Glossary</a>
+      <a href="/en/faq.html">FAQ</a>
+      <a id="nav-about"   href="/en/about.html">About</a>
+      <a id="nav-contact" href="/en/contact.html">Contact</a>
+      <a href="/en/tools.html">Tools</a>
+      <a href="/en/leagues/">Leagues</a>
+      <a href="/en/countries/">Countries</a>
+      <a href="/en/teams/">Teams</a>
+
+      <select id="lang" class="langsel" aria-label="Language">
+        <option value="en" selected>EN</option><option value="de">DE</option><option value="fr">FR</option><option value="es">ES</option>
+        <option value="it">IT</option><option value="pt">PT</option><option value="nl">NL</option><option value="pl">PL</option>
+        <option value="tr">TR</option><option value="ar">AR</option><option value="zh">ZH</option><option value="ja">JA</option>
+        <option value="ko">KO</option><option value="sv">SV</option>
+      </select>
+    </nav>
+  </div>
+
+  <div class="container tiny muted" style="padding:6px 0" role="navigation" aria-label="Language">
+    <span>Languages:</span>
+    <a href="/en/" data-lang-link="en">EN</a> <a href="/de/" data-lang-link="de">DE</a> <a href="/fr/" data-lang-link="fr">FR</a>
+    <a href="/es/" data-lang-link="es">ES</a> <a href="/it/" data-lang-link="it">IT</a> <a href="/pt/" data-lang-link="pt">PT</a>
+    <a href="/nl/" data-lang-link="nl">NL</a> <a href="/pl/" data-lang-link="pl">PL</a> <a href="/tr/" data-lang-link="tr">TR</a>
+    <a href="/ar/" data-lang-link="ar">AR</a> <a href="/zh/" data-lang-link="zh">ZH</a> <a href="/ja/" data-lang-link="ja">JA</a>
+    <a href="/ko/" data-lang-link="ko">KO</a> <a href="/sv/" data-lang-link="sv">SV</a>
+  </div>
+</header>
+
+
   <!-- Main -->
   <main class="container">
     <section class="card hero-card" style="margin-top:18px; position:relative; overflow:hidden">
@@ -335,6 +371,37 @@
       // перейти в корень выбранной локали
       location.href = '/' + lang + '/';
     });
+  })();
+</script>
+<script>
+  // Жёстко пробиваем навигацию по About/Contact
+  (function(){
+    function forceNav(id, url){
+      var a = document.getElementById(id);
+      if(!a) return;
+      a.addEventListener('click', function(e){
+        try { e.stopPropagation(); e.stopImmediatePropagation(); } catch(_){}
+        // Не даём никаким обработчикам отменить переход
+        try { e.preventDefault(); } catch(_){}
+        window.location.assign(url);
+      }, true); // capture=true чтобы перехватить раньше других
+    }
+    forceNav('nav-about',   '/en/about.html');
+    forceNav('nav-contact', '/en/contact.html');
+
+    // Селектор языка
+    var sel = document.getElementById('lang');
+    if (sel){
+      try {
+        var saved = localStorage.getItem('lang');
+        if (saved && sel.value !== saved) sel.value = saved;
+      } catch(_){}
+      sel.addEventListener('change', function(){
+        var lang = (this.value || 'en').toLowerCase();
+        try { localStorage.setItem('lang', lang); } catch(_){}
+        window.location.assign('/' + lang + '/');
+      });
+    }
   })();
 </script>
 </body>
