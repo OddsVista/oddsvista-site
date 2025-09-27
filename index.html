@@ -1,162 +1,50 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>OddsVista — Language</title><script>(function(){try{var s=localStorage.getItem('lang');var l=(s||(navigator.language||'en')).slice(0,2);var map={en:'/en/',de:'/de/',fr:'/fr/',es:'/es/',it:'/it/',pt:'/pt/',nl:'/nl/',pl:'/pl/',tr:'/tr/',ar:'/ar/',zh:'/zh/',ja:'/ja/',ko:'/ko/',sv:'/sv/'};location.replace(map[l]||'/en/');}catch(e){location.replace('/en/');}})();</script></head><body></body></html>
 <!doctype html>
-<html lang="en" dir="ltr">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>OddsVista — football analysis & education</title>
-  <meta name="description" content="Data-driven football insights & responsible education.">
-  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
-  <link rel="canonical" href="https://match1.day/en/">
-
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="OddsVista: Smart Football Insights">
-  <meta property="og:description" content="Previews, odds education, bankroll strategies & xG. Educational only — no guarantees.">
-  <meta property="og:image" content="https://match1.day/assets/og-en.png">
-  <meta property="og:url" content="https://match1.day/en/">
-  <meta name="twitter:card" content="summary_large_image">
-
-  <!-- hreflang -->
-  <link rel="alternate" href="https://match1.day/en/" hreflang="en">
-  <link rel="alternate" href="https://match1.day/de/" hreflang="de">
-  <link rel="alternate" href="https://match1.day/fr/" hreflang="fr">
-  <link rel="alternate" href="https://match1.day/es/" hreflang="es">
-  <link rel="alternate" href="https://match1.day/it/" hreflang="it">
-  <link rel="alternate" href="https://match1.day/pt/" hreflang="pt">
-  <link rel="alternate" href="https://match1.day/nl/" hreflang="nl">
-  <link rel="alternate" href="https://match1.day/pl/" hreflang="pl">
-  <link rel="alternate" href="https://match1.day/tr/" hreflang="tr">
-  <link rel="alternate" href="https://match1.day/ar/" hreflang="ar">
-  <link rel="alternate" href="https://match1.day/zh/" hreflang="zh">
-  <link rel="alternate" href="https://match1.day/ja/" hreflang="ja">
-  <link rel="alternate" href="https://match1.day/ko/" hreflang="ko">
-  <link rel="alternate" href="https://match1.day/sv/" hreflang="sv">
-  <link rel="alternate" href="https://match1.day/en/" hreflang="x-default">
-
-  <!-- styles -->
-  <link rel="stylesheet" href="/css/style.css">
-  <link rel="stylesheet" href="../css/style.css">
+  <title>OddsVista — Language Redirect</title>
+  <meta name="robots" content="noindex"> <!-- корневая страница-редирект не индексируется -->
+  <script>
+    (function () {
+      try {
+        // Редиректим только с корня, чтобы не мешать страницам внутри /en/, /de/, ...
+        if (location.pathname === "/" || location.pathname === "/index.html") {
+          var saved = localStorage.getItem("lang");
+          var lang = (saved || (navigator.language || "en")).slice(0, 2).toLowerCase();
+          var map = {
+            en: "/en/", de: "/de/", fr: "/fr/", es: "/es/", it: "/it/",
+            pt: "/pt/", nl: "/nl/", pl: "/pl/", tr: "/tr/",
+            ar: "/ar/", zh: "/zh/", ja: "/ja/", ko: "/ko/", sv: "/sv/"
+          };
+          location.replace(map[lang] || "/en/");
+        }
+      } catch (e) {
+        location.replace("/en/");
+      }
+    })();
+  </script>
+  <style>
+    /* Небольшой стиль для fallbacks */
+    body{margin:0;display:grid;place-items:center;min-height:100dvh;background:#0b1120;color:#e5e7eb;font:16px/1.5 system-ui,-apple-system,Segoe UI,Roboto}
+    .card{padding:28px 24px;border-radius:12px;background:rgba(255,255,255,.06);backdrop-filter:blur(6px);text-align:center;max-width:680px}
+    .links a{color:#93c5fd;text-decoration:none;margin:0 .35rem}
+    .links a:hover{text-decoration:underline}
+  </style>
 </head>
 <body>
-
-  <!-- depth layers -->
-  <div class="bg-glow live" aria-hidden="true"></div>
-  <svg class="grid-mesh" aria-hidden="true" viewBox="0 0 100 100" preserveAspectRatio="none">
-    <defs>
-      <pattern id="mesh" width="10" height="10" patternUnits="userSpaceOnUse">
-        <path d="M10 0H0V10" fill="none" stroke="rgba(200,200,255,.06)" stroke-width="0.25" />
-      </pattern>
-    </defs>
-    <rect width="100" height="100" fill="url(#mesh)" />
-  </svg>
-  <div class="noise" aria-hidden="true"></div>
-
-  <!-- Header -->
-  <header class="site-header" role="banner">
-    <div class="container nav-flex">
-      <a class="logo" href="/en/"><span class="logo-mark">OV</span><span style="margin-left:8px">OddsVista</span></a>
-      <nav class="nav" role="navigation" aria-label="Primary">
-        <a href="/en/">Home</a>
-        <a href="/en/blog/">Blog</a>
-        <a href="/en/glossary.html">Glossary</a>
-        <a href="/en/faq.html">FAQ</a>
-        <a href="/en/about.html">About</a>
-        <a href="/en/contact.html">Contact</a>
-        <a href="/en/tools.html">Tools</a>
-        <a href="/en/leagues/">Leagues</a>
-        <a href="/en/countries/">Countries</a>
-        <a href="/en/teams/">Teams</a>
-        <!-- nav CTA removed -->
-        <select id="lang" class="langsel" aria-label="Language">
-          <option value="en">EN</option><option value="de">DE</option><option value="fr">FR</option><option value="es">ES</option>
-          <option value="it">IT</option><option value="pt">PT</option><option value="nl">NL</option><option value="pl">PL</option>
-          <option value="tr">TR</option><option value="ar">AR</option><option value="zh">ZH</option><option value="ja">JA</option>
-          <option value="ko">KO</option><option value="sv">SV</option>
-        </select>
-      </nav>
+  <!-- Fallback для отключённого JS / на случай блокировок -->
+  <noscript>
+    <div class="card">
+      <h1 style="margin:0 0 10px">Choose your language</h1>
+      <p class="links">
+        <a href="/en/">EN</a> • <a href="/de/">DE</a> • <a href="/fr/">FR</a> • <a href="/es/">ES</a> •
+        <a href="/it/">IT</a> • <a href="/pt/">PT</a> • <a href="/nl/">NL</a> • <a href="/pl/">PL</a> •
+        <a href="/tr/">TR</a> • <a href="/ar/">AR</a> • <a href="/zh/">ZH</a> • <a href="/ja/">JA</a> •
+        <a href="/ko/">KO</a> • <a href="/sv/">SV</a>
+      </p>
+      <p style="opacity:.75;margin:.5rem 0 0">Enable JavaScript for automatic redirection.</p>
     </div>
-    <div class="container tiny muted" style="padding:6px 0" role="navigation" aria-label="Language">
-      <span>Languages:</span>
-      <a href="/en/" data-lang-link="en">EN</a> <a href="/de/" data-lang-link="de">DE</a> <a href="/fr/" data-lang-link="fr">FR</a>
-      <a href="/es/" data-lang-link="es">ES</a> <a href="/it/" data-lang-link="it">IT</a> <a href="/pt/" data-lang-link="pt">PT</a>
-      <a href="/nl/" data-lang-link="nl">NL</a> <a href="/pl/" data-lang-link="pl">PL</a> <a href="/tr/" data-lang-link="tr">TR</a>
-      <a href="/ar/" data-lang-link="ar">AR</a> <a href="/zh/" data-lang-link="zh">ZH</a> <a href="/ja/" data-lang-link="ja">JA</a>
-      <a href="/ko/" data-lang-link="ko">KO</a> <a href="/sv/" data-lang-link="sv">SV</a>
-    </div>
-  </header>
-
-  <main class="container">
-    <!-- HERO -->
-    <section class="card hero-card" style="margin-top:18px; position:relative; overflow:hidden">
-      <!-- soft blobs -->
-      <div class="blob t1"></div>
-      <div class="blob b1"></div>
-
-      <div class="hero-grid">
-        <div class="hero-left">
-          <div class="kicker">Welcome</div>
-
-          <h1 class="hero-title split">Smart Football Insights</h1>
-          <p class="muted hero-sub">
-            ⚽ · 📊 · 💰 · Previews · Odds education · Bankroll strategy & xG. Educational only; outcomes are uncertain.
-          </p>
-
-          <div class="kpi" aria-label="Example odds">
-            <span class="kpi-shadow"></span>
-            <span class="kpi-number" id="kpiNumber">0.0</span>
-            <div class="particles" aria-hidden="true">
-              <span class="p"></span><span class="p"></span><span class="p"></span><span class="p"></span><span class="p"></span>
-              <span class="p"></span><span class="p"></span><span class="p"></span><span class="p"></span><span class="p"></span>
-            </div>
-          </div>
-
-          <div class="hero-cta">
-            <a class="btn-tele glass-cta pulse btn-green" href="https://t.me/+IGmU1Hrp330zMDdi">
-              <!-- telegram icon -->
-              <svg class="tg" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M9.036 15.47l-.373 5.26c.533 0 .764-.229 1.04-.502l2.5-2.41 5.18 3.79c.95.523 1.63.248 1.89-.88l3.42-16.01c.3-1.45-.52-2.02-1.45-1.67L1.64 9.61C.23 10.16.24 10.98 1.39 11.33l5.39 1.68 12.52-7.91c.59-.39 1.13-.17.69.22" fill="currentColor"/>
-              </svg>
-              <span>Join Telegram</span>
-              <span class="sheen" aria-hidden="true"></span>
-            </a>
-            <span class="tiny muted">Free updates • No spam</span>
-          </div>
-
-          <div class="trust">
-            <span class="chip">🇩🇪 🇫🇷 🇪🇸 🇬🇧 🇮🇹</span>
-            <span class="chip">Bundesliga • LaLiga • EPL</span>
-            <span class="chip">For educational purposes only</span>
-          </div>
-        </div>
-
-        <!-- right block disabled -->
-        <!--
-        <aside class="highlight glass-card">
-          <span class="tag">Today’s highlight</span>
-          <div class="small">decimal <strong>1.97</strong> ↔ implied <strong>50.8%</strong></div>
-          <div class="meta"><span class="pill">Form</span><span class="pill">xG</span><span class="pill">Pressing</span></div>
-          <p class="note">Bayern rest edge; Dortmund wings vulnerable to switches.</p>
-          <div class="trend up">↗</div>
-          <span class="tiny muted">example</span>
-        </aside>
-        -->
-      </div>
-
-      <!-- flags marquee -->
-      <div class="marquee" aria-hidden="true">
-        <div class="track">🇩🇪 🇪🇸 🇬🇧 🇮🇹 🇫🇷 🇵🇹 🇳🇱 🇵🇱 🇸🇪 🇹🇷 🇺🇦 🇦🇷 🇧🇷 · </div>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <div class="container small muted footer-langs">
-      <a class="btn-tele" href="https://t.me/+IGmU1Hrp330zMDdi">Join Telegram</a>
-    </div>
-  </footer>
-
-  <!-- scripts -->
-  <script src="/js/config.js"></script>
-  <script src="../js/config.js"></script>
+  </noscript>
 </body>
 </html>
