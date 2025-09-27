@@ -1,99 +1,12 @@
 <!doctype html>
 <html lang="en" dir="ltr">
 <head>
-  <!-- Organization (расширенная) -->
-<script type="application/ld+json">
-{
-  "@context":"https://schema.org",
-  "@type":"Organization",
-  "@id":"https://match1.day/#org",
-  "name":"OddsVista",
-  "url":"https://match1.day/",
-  "logo":{
-    "@type":"ImageObject",
-    "url":"https://match1.day/assets/logo.png"
-  },
-  "brand":"OddsVista",
-  "description":"Data-driven football insights, odds education, and bankroll strategy. Educational only; no guaranteed results.",
-  "sameAs":[
-    "https://t.me/+IGmU1Hrp330zMDdi"
-  ],
-  "contactPoint":[{
-    "@type":"ContactPoint",
-    "contactType":"customer support",
-    "availableLanguage":["en","de","fr","es","it","pt"],
-    "url":"https://match1.day/en/contact.html"
-  }]
-}
-</script>
-
-<!-- WebSite + SearchAction (примерно как у тебя, но связали с @id) -->
-<script type="application/ld+json">
-{
-  "@context":"https://schema.org",
-  "@type":"WebSite",
-  "@id":"https://match1.day/#website",
-  "url":"https://match1.day/",
-  "name":"OddsVista",
-  "inLanguage":"en",
-  "publisher":{"@id":"https://match1.day/#org"},
-  "potentialAction":{
-    "@type":"SearchAction",
-    "target":"https://match1.day/en/search?q={search_term_string}",
-    "query-input":"required name=search_term_string"
-  }
-}
-</script>
-
-<!-- WebPage (Home) -->
-<script type="application/ld+json">
-{
-  "@context":"https://schema.org",
-  "@type":"WebPage",
-  "@id":"https://match1.day/en/#webpage",
-  "url":"https://match1.day/en/",
-  "name":"Smart Football Insights | OddsVista",
-  "isPartOf":{"@id":"https://match1.day/#website"},
-  "inLanguage":"en",
-  "about":{"@id":"https://match1.day/#org"},
-  "description":"Smart football insights with odds education, bankroll strategy and xG. Educational only; no results guaranteed.",
-  "breadcrumb":{
-    "@type":"BreadcrumbList",
-    "itemListElement":[
-      {"@type":"ListItem","position":1,"name":"Home","item":"https://match1.day/en/"}
-    ]
-  }
-}
-</script>
-
-<!-- SiteNavigationElement (главные пункты меню) -->
-<script type="application/ld+json">
-{
-  "@context":"https://schema.org",
-  "@type":"ItemList",
-  "itemListElement":[
-    {"@type":"SiteNavigationElement","name":"Home","url":"https://match1.day/en/"},
-    {"@type":"SiteNavigationElement","name":"Blog","url":"https://match1.day/en/blog/"},
-    {"@type":"SiteNavigationElement","name":"Glossary","url":"https://match1.day/en/glossary.html"},
-    {"@type":"SiteNavigationElement","name":"FAQ","url":"https://match1.day/en/faq.html"},
-    {"@type":"SiteNavigationElement","name":"Tools","url":"https://match1.day/en/tools.html"},
-    {"@type":"SiteNavigationElement","name":"Leagues","url":"https://match1.day/en/leagues/"},
-    {"@type":"SiteNavigationElement","name":"Countries","url":"https://match1.day/en/countries/"},
-    {"@type":"SiteNavigationElement","name":"Teams","url":"https://match1.day/en/teams/"},
-    {"@type":"SiteNavigationElement","name":"Contact","url":"https://match1.day/en/contact.html"},
-    {"@type":"SiteNavigationElement","name":"About","url":"https://match1.day/en/about.html"}
-  ]
-}
-</script>
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <!-- Primary SEO -->
   <title>OddsVista – Smart Football Insights & Predictions</title>
   <meta name="description" content="Data-driven football predictions, odds education, and bankroll strategy. Updated daily. Educational content only; no results guaranteed.">
-
-  <!-- Canonical -->
   <link rel="canonical" href="https://match1.day/en/">
 
   <!-- Hreflang (all locales) -->
@@ -113,15 +26,13 @@
   <link rel="alternate" hreflang="sv" href="https://match1.day/sv/">
   <link rel="alternate" hreflang="ar" href="https://match1.day/ar/">
 
-  <!-- Open Graph -->
+  <!-- Open Graph / Twitter -->
   <meta property="og:type" content="website">
   <meta property="og:title" content="OddsVista – Football Predictions">
   <meta property="og:description" content="Daily football insights powered by data. Learn odds, value, and xG responsibly.">
   <meta property="og:url" content="https://match1.day/en/">
   <meta property="og:image" content="https://match1.day/assets/og-en.png">
   <meta property="og:locale" content="en_US">
-
-  <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="OddsVista – Football Predictions">
   <meta name="twitter:description" content="Accurate football insights, odds education, and bankroll strategy.">
@@ -134,54 +45,95 @@
   <!-- JSON-LD: Organization -->
   <script type="application/ld+json">
   {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "OddsVista",
-    "url": "https://match1.day/",
-    "logo": "https://match1.day/assets/logo.png",
-    "sameAs": [
+    "@context":"https://schema.org",
+    "@type":"Organization",
+    "@id":"https://match1.day/#org",
+    "name":"OddsVista",
+    "url":"https://match1.day/",
+    "logo":{"@type":"ImageObject","url":"https://match1.day/assets/logo.png"},
+    "brand":"OddsVista",
+    "description":"Data-driven football insights, odds education, and bankroll strategy. Educational only; no guaranteed results.",
+    "sameAs":[
       "https://www.instagram.com/insidewith_lana",
       "https://www.threads.com/@insidewith_lana",
       "https://t.me/+IGmU1Hrp330zMDdi"
-    ]
+    ],
+    "contactPoint":[{
+      "@type":"ContactPoint",
+      "contactType":"customer support",
+      "availableLanguage":["en","de","fr","es","it","pt"],
+      "url":"https://match1.day/en/contact/"
+    }]
   }
   </script>
 
   <!-- JSON-LD: WebSite + SearchAction -->
   <script type="application/ld+json">
   {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "OddsVista",
-    "url": "https://match1.day/",
-    "inLanguage": "en",
-    "potentialAction": {
-      "@type": "SearchAction",
-      "target": "https://match1.day/en/search?q={search_term_string}",
-      "query-input": "required name=search_term_string"
+    "@context":"https://schema.org",
+    "@type":"WebSite",
+    "@id":"https://match1.day/#website",
+    "url":"https://match1.day/",
+    "name":"OddsVista",
+    "inLanguage":"en",
+    "publisher":{"@id":"https://match1.day/#org"},
+    "potentialAction":{
+      "@type":"SearchAction",
+      "target":"https://match1.day/en/search?q={search_term_string}",
+      "query-input":"required name=search_term_string"
     }
   }
   </script>
 
-  <!-- JSON-LD: Breadcrumbs -->
+  <!-- JSON-LD: WebPage (Home) -->
   <script type="application/ld+json">
   {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      { "@type":"ListItem","position":1,"name":"Home","item":"https://match1.day/en/" },
-      { "@type":"ListItem","position":2,"name":"Blog","item":"https://match1.day/en/blog/" }
+    "@context":"https://schema.org",
+    "@type":"WebPage",
+    "@id":"https://match1.day/en/#webpage",
+    "url":"https://match1.day/en/",
+    "name":"Smart Football Insights | OddsVista",
+    "isPartOf":{"@id":"https://match1.day/#website"},
+    "inLanguage":"en",
+    "about":{"@id":"https://match1.day/#org"},
+    "description":"Smart football insights with odds education, bankroll strategy and xG. Educational only; no results guaranteed.",
+    "breadcrumb":{
+      "@type":"BreadcrumbList",
+      "itemListElement":[
+        {"@type":"ListItem","position":1,"name":"Home","item":"https://match1.day/en/"}
+      ]
+    }
+  }
+  </script>
+
+  <!-- JSON-LD: SiteNavigationElement -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"ItemList",
+    "itemListElement":[
+      {"@type":"SiteNavigationElement","name":"Home","url":"https://match1.day/en/"},
+      {"@type":"SiteNavigationElement","name":"Blog","url":"https://match1.day/en/blog/"},
+      {"@type":"SiteNavigationElement","name":"Glossary","url":"https://match1.day/en/glossary.html"},
+      {"@type":"SiteNavigationElement","name":"FAQ","url":"https://match1.day/en/faq.html"},
+      {"@type":"SiteNavigationElement","name":"Tools","url":"https://match1.day/en/tools.html"},
+      {"@type":"SiteNavigationElement","name":"Leagues","url":"https://match1.day/en/leagues/"},
+      {"@type":"SiteNavigationElement","name":"Countries","url":"https://match1.day/en/countries/"},
+      {"@type":"SiteNavigationElement","name":"Teams","url":"https://match1.day/en/teams/"},
+      {"@type":"SiteNavigationElement","name":"Contact","url":"https://match1.day/en/contact/"},
+      {"@type":"SiteNavigationElement","name":"About","url":"https://match1.day/en/about/"}
     ]
   }
   </script>
 
   <style>
-    /* Prevent glued words in hero title */
+    /* Small helper: prevent glued words in hero title */
     .hero-title { white-space: normal; word-spacing: .08em; letter-spacing: 0; }
     .split { white-space: normal; }
   </style>
 </head>
 <body>
+
   <!-- depth layers -->
   <div class="bg-glow live" aria-hidden="true"></div>
   <svg class="grid-mesh" aria-hidden="true" viewBox="0 0 100 100" preserveAspectRatio="none">
@@ -194,79 +146,39 @@
   </svg>
   <div class="noise" aria-hidden="true"></div>
 
-  <!-- Header -->
+  <!-- Header (single, correct) -->
   <header class="site-header" role="banner">
-  <div class="container nav-flex">
-    <a class="logo" href="./"><span class="logo-mark">OV</span><span style="margin-left:8px">OddsVista</span></a>
-    <nav class="nav" role="navigation" aria-label="Primary">
-      <!-- относительные ссылки внутри /en/ -->
-      <a href="./">Home</a>
-      <a href="blog/">Blog</a>
-      <a href="glossary.html">Glossary</a>
-      <a href="faq.html">FAQ</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
-      <a href="tools.html">Tools</a>
-      <a href="leagues/">Leagues</a>
-      <a href="countries/">Countries</a>
-      <a href="teams/">Teams</a>
+    <div class="container nav-flex">
+      <a class="logo" href="/en/"><span class="logo-mark">OV</span><span style="margin-left:8px">OddsVista</span></a>
+      <nav class="nav" role="navigation" aria-label="Primary">
+        <a href="/en/">Home</a>
+        <a href="/en/blog/">Blog</a>
+        <a href="/en/glossary.html">Glossary</a>
+        <a href="/en/faq.html">FAQ</a>
+        <a href="/en/about/">About</a>
+        <a href="/en/contact/">Contact</a>
+        <a href="/en/tools.html">Tools</a>
+        <a href="/en/leagues/">Leagues</a>
+        <a href="/en/countries/">Countries</a>
+        <a href="/en/teams/">Teams</a>
+        <select id="lang" class="langsel" aria-label="Language">
+          <option value="en" selected>EN</option><option value="de">DE</option><option value="fr">FR</option><option value="es">ES</option>
+          <option value="it">IT</option><option value="pt">PT</option><option value="nl">NL</option><option value="pl">PL</option>
+          <option value="tr">TR</option><option value="ar">AR</option><option value="zh">ZH</option><option value="ja">JA</option>
+          <option value="ko">KO</option><option value="sv">SV</option>
+        </select>
+      </nav>
+    </div>
 
-      <!-- селектор языка -->
-      <select id="lang" class="langsel" aria-label="Language">
-        <option value="en" selected>EN</option><option value="de">DE</option><option value="fr">FR</option><option value="es">ES</option>
-        <option value="it">IT</option><option value="pt">PT</option><option value="nl">NL</option><option value="pl">PL</option>
-        <option value="tr">TR</option><option value="ar">AR</option><option value="zh">ZH</option><option value="ja">JA</option>
-        <option value="ko">KO</option><option value="sv">SV</option>
-      </select>
-    </nav>
-  </div>
-
-  <!-- языковые ссылки можно оставить абсолютными -->
-  <div class="container tiny muted" style="padding:6px 0" role="navigation" aria-label="Language">
-    <span>Languages:</span>
-    <a href="/en/" data-lang-link="en">EN</a> <a href="/de/" data-lang-link="de">DE</a> <a href="/fr/" data-lang-link="fr">FR</a>
-    <a href="/es/" data-lang-link="es">ES</a> <a href="/it/" data-lang-link="it">IT</a> <a href="/pt/" data-lang-link="pt">PT</a>
-    <a href="/nl/" data-lang-link="nl">NL</a> <a href="/pl/" data-lang-link="pl">PL</a> <a href="/tr/" data-lang-link="tr">TR</a>
-    <a href="/ar/" data-lang-link="ar">AR</a> <a href="/zh/" data-lang-link="zh">ZH</a> <a href="/ja/" data-lang-link="ja">JA</a>
-    <a href="/ko/" data-lang-link="ko">KO</a> <a href="/sv/" data-lang-link="sv">SV</a>
-  </div>
-</header>
-
-<header class="site-header" role="banner">
-  <div class="container nav-flex">
-    <a class="logo" href="./"><span class="logo-mark">OV</span><span style="margin-left:8px">OddsVista</span></a>
-    <nav class="nav" role="navigation" aria-label="Primary">
-      <!-- Ставим абсолютные пути для EN (на проде всегда работают) -->
-      <a href="/en/">Home</a>
-      <a href="/en/blog/">Blog</a>
-      <a href="/en/glossary.html">Glossary</a>
-      <a href="/en/faq.html">FAQ</a>
-     <a href="about/">About</a>
-<a href="contact/">Contact</a>
-      <a href="/en/tools.html">Tools</a>
-      <a href="/en/leagues/">Leagues</a>
-      <a href="/en/countries/">Countries</a>
-      <a href="/en/teams/">Teams</a>
-
-      <select id="lang" class="langsel" aria-label="Language">
-        <option value="en" selected>EN</option><option value="de">DE</option><option value="fr">FR</option><option value="es">ES</option>
-        <option value="it">IT</option><option value="pt">PT</option><option value="nl">NL</option><option value="pl">PL</option>
-        <option value="tr">TR</option><option value="ar">AR</option><option value="zh">ZH</option><option value="ja">JA</option>
-        <option value="ko">KO</option><option value="sv">SV</option>
-      </select>
-    </nav>
-  </div>
-
-  <div class="container tiny muted" style="padding:6px 0" role="navigation" aria-label="Language">
-    <span>Languages:</span>
-    <a href="/en/" data-lang-link="en">EN</a> <a href="/de/" data-lang-link="de">DE</a> <a href="/fr/" data-lang-link="fr">FR</a>
-    <a href="/es/" data-lang-link="es">ES</a> <a href="/it/" data-lang-link="it">IT</a> <a href="/pt/" data-lang-link="pt">PT</a>
-    <a href="/nl/" data-lang-link="nl">NL</a> <a href="/pl/" data-lang-link="pl">PL</a> <a href="/tr/" data-lang-link="tr">TR</a>
-    <a href="/ar/" data-lang-link="ar">AR</a> <a href="/zh/" data-lang-link="zh">ZH</a> <a href="/ja/" data-lang-link="ja">JA</a>
-    <a href="/ko/" data-lang-link="ko">KO</a> <a href="/sv/" data-lang-link="sv">SV</a>
-  </div>
-</header>
-
+    <div class="container tiny muted" style="padding:6px 0" role="navigation" aria-label="Language">
+      <span>Languages:</span>
+      <a href="/en/" data-lang-link="en">EN</a> <a href="/de/" data-lang-link="de">DE</a> <a href="/fr/" data-lang-link="fr">FR</a>
+      <a href="/es/" data-lang-link="es">ES</a> <a href="/it/" data-lang-link="it">IT</a> <a href="/pt/" data-lang-link="pt">PT</a>
+      <a href="/nl/" data-lang-link="nl">NL</a> <a href="/pl/" data-lang-link="pl">PL</a> <a href="/tr/" data-lang-link="tr">TR</a>
+      <a href="/ar/" data-lang-link="ar">AR</a> <a href="/zh/" data-lang-link="zh">ZH</a> <a href="/ja/" data-lang-link="ja">JA</a>
+      <a href="/ko/" data-lang-link="ko">KO</a> <a href="/sv/" data-lang-link="sv">SV</a>
+    </div>
+  </header>
 
   <!-- Main -->
   <main class="container">
@@ -285,25 +197,23 @@
           </p>
 
           <!-- KPI badge -->
-<div class="kpi-hero">
-  <div class="kpi-badge">
-    <span class="kpi-label">Odds</span>
-    <span class="kpi-value" id="kpiNumber">197.0</span>
-  </div>
-  <div class="kpi-meta">Free updates • No spam</div>
-</div>
-
+          <div class="kpi-hero">
+            <div class="kpi-badge">
+              <span class="kpi-label">Odds</span>
+              <span class="kpi-value" id="kpiNumber">197.0</span>
+            </div>
+            <div class="kpi-meta">Free updates • No spam</div>
+          </div>
 
           <!-- CTA -->
           <div class="hero-cta">
             <a class="btn-tele glass-cta pulse btn-green" href="https://t.me/+IGmU1Hrp330zMDdi" aria-label="Join our Telegram">
               <svg class="tg" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M9.036 15.47l-.373 5.26c.533 0 .764-.229 1.04-.502l2.5-2.41 5.18 3.79c.95.523 1.63.248 1.89-.88l3.42-16.01c.3-1.45-.52-2.02-1.45-1.67L1.64 9.61C.23 10.16.24 10.98 1.39 11.33l5.39 1.68 12.52-7.91c.59-.39 1.13-.17.69.22" fill="currentColor"/>
+                <path d="M9.036 15.47l-.373 5.26c.533 0 .764-.229 1.04-.502l2.5-2.41 5.18 3.79c.95.523 1.63.248 1.89-.88l3.42-16.01c.3-1.45-.52-2.02-1.45-1.67L1.64 9.61C.23 10.16.24 10.98 1.39 11.33l5.39 1.68 12.52-7.91c.59-.39 1.13-.17.69.22" fill="currentColor"></path>
               </svg>
               <span>Join Telegram</span>
               <span class="sheen" aria-hidden="true"></span>
             </a>
-           
           </div>
 
           <div class="trust">
@@ -351,58 +261,23 @@
       }
       requestAnimationFrame(tick);
     })();
-  </script>
-<script src="/js/config.js"></script>
-<script src="/js/main.js"></script>
-<script>
-  (function () {
-    const sel = document.getElementById('lang');
-    if (!sel) return;
 
-    // выбрать сохранённый язык, если есть
-    try {
-      const saved = localStorage.getItem('lang');
-      if (saved && sel.value !== saved) sel.value = saved;
-    } catch(e){}
-
-    sel.addEventListener('change', function () {
-      const lang = this.value || 'en';
-      try { localStorage.setItem('lang', lang); } catch(e){}
-      // перейти в корень выбранной локали
-      location.href = '/' + lang + '/';
-    });
-  })();
-</script>
-<script>
-  // Жёстко пробиваем навигацию по About/Contact
-  (function(){
-    function forceNav(id, url){
-      var a = document.getElementById(id);
-      if(!a) return;
-      a.addEventListener('click', function(e){
-        try { e.stopPropagation(); e.stopImmediatePropagation(); } catch(_){}
-        // Не даём никаким обработчикам отменить переход
-        try { e.preventDefault(); } catch(_){}
-        window.location.assign(url);
-      }, true); // capture=true чтобы перехватить раньше других
-    }
-    forceNav('nav-about',   '/en/about.html');
-    forceNav('nav-contact', '/en/contact.html');
-
-    // Селектор языка
-    var sel = document.getElementById('lang');
-    if (sel){
+    // language selector
+    (function () {
+      const sel = document.getElementById('lang');
+      if (!sel) return;
       try {
-        var saved = localStorage.getItem('lang');
+        const saved = localStorage.getItem('lang');
         if (saved && sel.value !== saved) sel.value = saved;
-      } catch(_){}
-      sel.addEventListener('change', function(){
-        var lang = (this.value || 'en').toLowerCase();
-        try { localStorage.setItem('lang', lang); } catch(_){}
-        window.location.assign('/' + lang + '/');
+      } catch(e){}
+      sel.addEventListener('change', function () {
+        const lang = (this.value || 'en').toLowerCase();
+        try { localStorage.setItem('lang', lang); } catch(e){}
+        location.href = '/' + lang + '/';
       });
-    }
-  })();
-</script>
+    })();
+  </script>
+  <script src="/js/config.js"></script>
+  <script src="/js/main.js"></script>
 </body>
 </html>
