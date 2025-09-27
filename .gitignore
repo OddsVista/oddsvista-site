@@ -1,2 +1,21 @@
+# ===== System =====
 .DS_Store
-sitemap_*.xml
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ===== IDE / Editor =====
+.vscode/
+*.code-workspace
+
+# ===== Logs =====
+*.log
+
+# ===== GitHub Pages build cache =====
+.cache/
+dist/
+build/
+
+# ===== Temporary =====
+*.tmp
+*.swp
