@@ -617,3 +617,130 @@ body{
 @media (prefers-reduced-motion:reduce){
   .kpi-badge{ transition:none !important; }
 }
+/* ==== EMERGENCY FIX: KPI badge + hero polish ==== */
+.hero-left { align-items: flex-start; }
+@media (max-width: 768px){ .hero-left{ align-items:center } }
+
+.kpi-hero{
+  display:flex !important;
+  flex-direction:column !important;
+  align-items:center !important;
+  gap:10px !important;
+  margin:10px 0 6px !important;
+}
+
+.kpi-badge{
+  position:relative !important;
+  display:inline-flex !important;
+  align-items:center !important;
+  gap:10px !important;
+  padding:10px 14px !important;
+  border-radius:16px !important;
+  background:linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.03)) !important;
+  border:1px solid rgba(255,255,255,.16) !important;
+  box-shadow:0 10px 28px rgba(0,0,0,.28) !important;
+  backdrop-filter:blur(10px) !important;
+  -webkit-backdrop-filter:blur(10px) !important;
+}
+.kpi-badge::before{
+  content:"" !important;
+  position:absolute !important; inset:-1px !important;
+  border-radius:inherit !important; pointer-events:none !important;
+  background:linear-gradient(135deg, rgba(124,255,159,.45), rgba(110,231,255,.45)) !important;
+  mask:linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0) !important;
+  -webkit-mask:linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0) !important;
+  padding:1px !important;
+  -webkit-mask-composite:xor; mask-composite:exclude;
+  opacity:.45 !important;
+}
+
+.kpi-label{
+  font-size:.9rem !important;
+  letter-spacing:.08em !important;
+  text-transform:uppercase !important;
+  color:var(--muted) !important;
+}
+.kpi-value{
+  font-weight:900 !important;
+  font-variant-numeric:tabular-nums !important;
+  font-size:clamp(30px, 9.5vw, 48px) !important;
+  line-height:1.03 !important;
+  letter-spacing:.2px !important;
+  color:#eef2ff !important;
+  text-shadow:0 2px 10px rgba(0,0,0,.25) !important;
+}
+.kpi-meta{
+  font-size:.95rem !important;
+  color:var(--muted) !important;
+  text-align:center !important;
+  opacity:.9 !important;
+}
+
+/* прячем старый неоновый блок в hero, чтобы он не лез */
+.hero-card .kpi,
+.hero-card .kpi-shadow,
+.hero-card .particles { display:none !important; }
+
+/* кнопка — ровный вид на мобиле */
+.hero-cta{ margin-top:12px !important; justify-content:center !important; }
+.btn-tele{ width:100% !important; max-width:560px !important; }
+
+/* мобильная типографика, чтобы всё смотрелось плотнее */
+@media (max-width:768px){
+  .hero-title{ font-size:clamp(22px, 5.5vw, 32px) !important; text-align:center !important; margin:6px 0 8px !important; }
+  .hero-sub{ font-size:.98rem !important; text-align:center !important; margin:0 auto 10px !important; max-width:60ch !important; }
+}
+/* ========= Header clean-up (mobile) ========= */
+@media (max-width: 768px){
+  .site-header { backdrop-filter: blur(10px); border-bottom: 1px solid rgba(110,231,255,.14); }
+  .nav-flex { min-height: 52px; }
+  .logo { gap: 8px; font-size: .98rem; }
+  .nav { display:flex; flex-wrap:wrap; gap:8px 12px; justify-content:flex-end; }
+  .nav a { margin:0 !important; font-size:.95rem; opacity:.95; }
+  /* если мест не хватает — прячем второстепенные */
+  .nav a[href*="/countries/"], .nav a[href*="/teams/"] { display:none; } /* опционально */
+  /* строка языков в 1 строку с прокруткой */
+  .site-header + .container.tiny {
+    display:block; overflow:auto; white-space:nowrap; scrollbar-width:none; -ms-overflow-style:none;
+  }
+  .site-header + .container.tiny::-webkit-scrollbar { display:none; }
+  .site-header + .container.tiny a { display:inline-block; padding:2px 8px; border-radius:999px; margin-right:6px;
+    background:rgba(255,255,255,.04); border:1px solid rgba(255,255,255,.08); }
+}
+
+/* ========= KPI badge: gradient glow + hover ========= */
+.kpi-hero { margin: 12px 0 6px; }
+.kpi-badge{
+  position:relative;
+  isolation:isolate; /* чтобы свечение не выходило за границы */
+}
+/* мягкое свечение под бейджем */
+.kpi-badge::after{
+  content:""; position:absolute; inset:-24px -28px; z-index:-1; border-radius:28px;
+  background:
+    radial-gradient(120px 80px at 30% 30%, rgba(124,255,159,.18), transparent 60%),
+    radial-gradient(140px 90px at 70% 60%, rgba(110,231,255,.16), transparent 60%);
+  filter: blur(18px);
+  opacity:.9;
+}
+/* лёгкий контуру-градиент по рамке (чуть ярче) */
+.kpi-badge::before{ opacity:.6; }
+
+/* hover/active на десктопе */
+@media (hover:hover){
+  .kpi-badge{ transition: transform .18s ease, box-shadow .25s ease; }
+  .kpi-badge:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 14px 34px rgba(0,0,0,.35);
+  }
+}
+
+/* ========= Button polish ========= */
+.btn-tele{
+  font-weight:800;
+  letter-spacing:.2px;
+}
+@media (max-width:768px){
+  .hero-cta{ justify-content:center; }
+  .btn-tele{ width:100%; max-width:560px; }
+}
